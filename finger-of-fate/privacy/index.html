@@ -1,175 +1,212 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" translate="no">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Finger of Fate — Privacy Policy</title>
+<meta name="google" content="notranslate">
+<meta name="robots" content="index,follow">
+<title>Finger of Fate – Privacy Policy</title>
 <style>
-  :root { color-scheme: light dark; }
-  body {
-    margin: 0 auto; padding: 24px 20px 64px; max-width: 46rem;
-    font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-    background: #faf9ff; color: #1b1630;
+  :root {
+    --bg: #faf9ff; --surface: #ffffff; --text: #1a1633; --muted: #5d5880;
+    --accent: #6a3df0; --line: #e4e0f5;
   }
   @media (prefers-color-scheme: dark) {
-    body { background: #0b0a1e; color: #f0ecff; }
-    a { color: #7cd4ff; }
-    nav a { background: #1a1440; color: #f0ecff; }
-    section { border-color: #2a2358; }
+    :root {
+      --bg: #0b0a1e; --surface: #15112f; --text: #f1eeff; --muted: #a9a3d6;
+      --accent: #a98bff; --line: #2a2356;
+    }
   }
-  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
-  h2 { font-size: 1.25rem; margin-top: 2rem; }
-  h3 { font-size: 1rem; margin-top: 1.5rem; }
-  nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0 28px; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  nav {
+    position: sticky; top: 0; z-index: 1; background: var(--bg);
+    border-bottom: 1px solid var(--line); padding: .75rem 1rem;
+    display: flex; gap: .5rem; justify-content: center; flex-wrap: wrap;
+  }
   nav a {
-    text-decoration: none; padding: 6px 12px; border-radius: 999px;
-    background: #ece7ff; color: #1b1630; font-size: .9rem;
+    color: var(--text); text-decoration: none; font-weight: 600; font-size: .95rem;
+    padding: .35rem .9rem; border: 1px solid var(--line); border-radius: 999px;
   }
-  section { border-top: 1px solid #e2ddf5; padding-top: 8px; }
-  .updated { opacity: .7; font-size: .9rem; }
-  ul { padding-left: 1.2rem; }
-  code { font-size: .9em; }
+  nav a:hover, nav a:focus-visible { border-color: var(--accent); color: var(--accent); }
+  main { max-width: 44rem; margin: 0 auto; padding: 1rem 1.25rem 4rem; }
+  section { padding: 2.5rem 0 1.5rem; border-bottom: 1px solid var(--line); }
+  section:last-of-type { border-bottom: 0; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+  p, li { margin: 0 0 .8rem; }
+  ul { padding-left: 1.2rem; margin: 0 0 .8rem; }
+  .meta { color: var(--muted); font-size: .95rem; margin-bottom: 1.5rem; }
+  a { color: var(--accent); }
 </style>
 </head>
 <body>
 
-<h1>Finger of Fate / Kader Parmağı / Schicksalsfinger / Палец судьбы</h1>
-<p class="updated">Last updated: 20 September 2026 · Son güncelleme · Zuletzt aktualisiert · Последнее обновление</p>
-
-<nav>
-  <a href="#en">English</a>
-  <a href="#tr">Türkçe</a>
-  <a href="#de">Deutsch</a>
-  <a href="#ru">Русский</a>
+<nav aria-label="Language">
+  <a href="#en" lang="en">English</a>
+  <a href="#tr" lang="tr">Türkçe</a>
+  <a href="#de" lang="de">Deutsch</a>
+  <a href="#ru" lang="ru">Русский</a>
 </nav>
 
-<section id="en">
-<h2>Privacy Policy (English)</h2>
-<p>This app is made by OneHelsing. It is a party game: people put fingers on the screen and the app picks one of them. We keep it simple — there is no account and no server of ours.</p>
+<main>
 
-<h3>What we store</h3>
-<ul>
-  <li><strong>On your device only:</strong> your settings (language, sound, vibration, countdown, theme), your game statistics and achievements, your daily-fortune streak, and any task decks you create. This data never leaves your phone, and we cannot read it. Deleting the app deletes it.</li>
-  <li><strong>We operate no servers</strong> for this app and we do not collect, sell or share your personal data ourselves.</li>
-</ul>
+<!-- ============================== ENGLISH ============================== -->
+<section id="en" lang="en">
+  <h1>Privacy Policy</h1>
+  <p class="meta">Finger of Fate · OneHelsing Studio · Last updated: 21 September 2026</p>
 
-<h3>Advertising</h3>
-<p>The app shows ads from Google AdMob so it can stay free. To serve ads, Google may collect and process data such as your advertising identifier, device information, approximate location derived from your IP address, and your interactions with ads. Google acts as an independent controller or processor for this data.</p>
-<ul>
-  <li>Google's policy: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use our services</a></li>
-  <li>In the European Economic Area, the UK and Switzerland we ask for your consent before personalised ads are used, through Google's consent management platform. You can change your choice at any time in <em>Settings → Manage ad preferences</em>.</li>
-  <li>You can also reset or delete your advertising identifier in your device settings.</li>
-  <li>Ads are never shown on the play surface while fingers are on the screen.</li>
-</ul>
+  <p>Finger of Fate is a party app developed by OneHelsing Studio. Everyone places a finger on the screen and the app picks one at random. The app works without an account, and we do not operate any servers for it. This policy explains what information is involved when you use the app.</p>
 
-<h3>Notifications</h3>
-<p>If you turn on the daily fortune reminder, the app schedules a local notification on your device at the time you choose. Nothing is sent to us or to anyone else. You can turn it off in the app or in your system settings.</p>
+  <h2>Information stored on your device</h2>
+  <p>The app saves the following on your device only: your settings (language, sound, vibration, countdown, theme), your game statistics and achievements, your daily fortune streak, and any task decks you create. This information never leaves your device, and we have no access to it. Uninstalling the app, or clearing its data in your system settings, deletes it permanently.</p>
+  <p>We do not collect, sell or share your personal data.</p>
 
-<h3>Children</h3>
-<p>The app is rated for ages 13 and over and is not directed at children. We do not knowingly collect data from children.</p>
+  <h2>Advertising</h2>
+  <p>The app is free and is funded by ads served through Google AdMob. To deliver and measure ads, Google may collect and process information such as your advertising ID, device and app information, your approximate location derived from your IP address, and your interactions with ads. Google processes this data under its own privacy policy. You can read how Google uses information from apps that use its services at <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+  <ul>
+    <li>In the European Economic Area, the United Kingdom and Switzerland, we ask for your consent through Google’s consent management platform before personalised ads are shown. You can change your choice at any time under Settings → Manage ad preferences.</li>
+    <li>You can reset or delete your advertising ID in your device settings.</li>
+    <li>Ads are never shown on the play surface while fingers are on the screen.</li>
+  </ul>
 
-<h3>Your rights</h3>
-<p>Because we hold no personal data about you, there is nothing for us to export or delete. For data processed by Google for advertising, see Google's policy linked above, or withdraw consent in <em>Settings → Manage ad preferences</em>.</p>
+  <h2>Notifications</h2>
+  <p>If you turn on the daily fortune reminder, the app schedules a local notification on your device at the time you choose. Nothing is sent to us or to anyone else. You can turn the reminder off in the app or in your system settings.</p>
 
-<h3>Changes and contact</h3>
-<p>If this policy changes, the date above changes with it. Questions: <a href="mailto:privacy@onehelsing.example">privacy@onehelsing.example</a> <em>(replace with your real contact address before publishing)</em>.</p>
+  <h2>Sharing</h2>
+  <p>When you share a result or a fortune, the image is created on your device and handed to the app you select through your system’s share menu. We do not receive a copy.</p>
+
+  <h2>Children</h2>
+  <p>The app is intended for users aged 13 and over and is not directed at children. We do not knowingly collect personal data from children.</p>
+
+  <h2>Your rights</h2>
+  <p>Because we hold no personal data about you, there is nothing for us to export, correct or delete. For data processed by Google for advertising, please refer to the Google policy linked above, or withdraw your consent under Settings → Manage ad preferences.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, we will publish the new version on this page and update the date above.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a></p>
 </section>
 
-<section id="tr">
-<h2>Gizlilik Politikası (Türkçe)</h2>
-<p>Bu uygulama OneHelsing tarafından yapılmıştır. Bir parti oyunudur: herkes ekrana parmağını koyar, uygulama birini seçer. İşleyiş basittir — hesap yoktur, bize ait bir sunucu yoktur.</p>
+<!-- ============================== TÜRKÇE ============================== -->
+<section id="tr" lang="tr">
+  <h1>Gizlilik Politikası</h1>
+  <p class="meta">Finger of Fate · OneHelsing Studio · Son güncelleme: 21 Eylül 2026</p>
 
-<h3>Neler saklanıyor</h3>
-<ul>
-  <li><strong>Yalnızca cihazınızda:</strong> ayarlarınız (dil, ses, titreşim, geri sayım, tema), oyun istatistikleriniz ve başarımlarınız, günlük fal seriniz ve oluşturduğunuz görev desteleri. Bu veriler telefonunuzdan çıkmaz, biz okuyamayız. Uygulamayı silmek bu verileri de siler.</li>
-  <li><strong>Sunucumuz yoktur;</strong> kişisel verinizi kendimiz toplamaz, satmaz, paylaşmayız.</li>
-</ul>
+  <p>Finger of Fate, OneHelsing Studio tarafından geliştirilen bir eğlence uygulamasıdır. Herkes parmağını ekrana koyar, uygulama içlerinden birini rastgele seçer. Uygulamayı kullanmak için hesap açmanız gerekmez ve uygulama için tarafımızca işletilen herhangi bir sunucu bulunmaz. Bu politika, uygulamayı kullanırken hangi bilgilerin söz konusu olduğunu açıklar.</p>
 
-<h3>Reklamlar</h3>
-<p>Uygulama ücretsiz kalabilsin diye Google AdMob reklamları gösterilir. Reklam sunmak için Google; reklam kimliğiniz, cihaz bilgileri, IP adresinizden türetilen yaklaşık konum ve reklamlarla etkileşiminiz gibi verileri toplayıp işleyebilir. Google bu veriler için bağımsız veri sorumlusu ya da işleyen olarak hareket eder.</p>
-<ul>
-  <li>Google'ın açıklaması: <a href="https://policies.google.com/technologies/partner-sites">Google, hizmetlerimizi kullanan site ve uygulamalardan gelen bilgileri nasıl kullanır?</a></li>
-  <li>Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de kişiselleştirilmiş reklam öncesinde Google'ın rıza yönetim platformu üzerinden onayınız istenir. Seçiminizi istediğiniz zaman <em>Ayarlar → Reklam tercihlerini yönet</em> bölümünden değiştirebilirsiniz.</li>
-  <li>Reklam kimliğinizi cihaz ayarlarından sıfırlayabilir ya da silebilirsiniz.</li>
-  <li>Parmakların ekranda olduğu oyun yüzeyinde asla reklam gösterilmez.</li>
-</ul>
+  <h2>Cihazınızda saklanan bilgiler</h2>
+  <p>Uygulama şu bilgileri yalnızca cihazınızda saklar: ayarlarınız (dil, ses, titreşim, geri sayım, tema), oyun istatistikleriniz ve başarımlarınız, günlük fal seriniz ve oluşturduğunuz görev desteleri. Bu bilgiler cihazınızdan dışarı çıkmaz ve bizim bunlara erişimimiz yoktur. Uygulamayı kaldırdığınızda ya da sistem ayarlarından uygulama verilerini temizlediğinizde kalıcı olarak silinir.</p>
+  <p>Kişisel verilerinizi toplamıyor, satmıyor ve kimseyle paylaşmıyoruz.</p>
 
-<h3>Bildirimler</h3>
-<p>Günlük fal hatırlatıcısını açarsanız uygulama, seçtiğiniz saatte cihazınızda yerel bir bildirim planlar. Bize ya da başka birine hiçbir şey gönderilmez. Uygulamadan ya da sistem ayarlarından kapatabilirsiniz.</p>
+  <h2>Reklamlar</h2>
+  <p>Uygulama ücretsizdir ve Google AdMob üzerinden gösterilen reklamlarla finanse edilir. Google, reklamları sunmak ve ölçümlemek amacıyla reklam kimliğiniz, cihaz ve uygulama bilgileriniz, IP adresinizden türetilen yaklaşık konumunuz ve reklamlarla etkileşimleriniz gibi bilgileri toplayabilir ve işleyebilir. Google bu verileri kendi gizlilik politikası kapsamında işler. Google’ın, hizmetlerini kullanan uygulamalardan gelen bilgileri nasıl kullandığını şu adresten okuyabilirsiniz: <a href="https://policies.google.com/technologies/partner-sites?hl=tr">policies.google.com/technologies/partner-sites</a>.</p>
+  <ul>
+    <li>Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre’de, kişiselleştirilmiş reklamlar gösterilmeden önce Google’ın rıza yönetim platformu aracılığıyla onayınızı alırız. Tercihinizi dilediğiniz zaman Ayarlar → Reklam tercihlerini yönet bölümünden değiştirebilirsiniz.</li>
+    <li>Reklam kimliğinizi cihaz ayarlarınızdan sıfırlayabilir veya silebilirsiniz.</li>
+    <li>Parmaklar ekrandayken oyun alanında hiçbir zaman reklam gösterilmez.</li>
+  </ul>
 
-<h3>Çocuklar</h3>
-<p>Uygulama 13 yaş ve üzeri içindir, çocuklara yönelik değildir. Bilerek çocuklardan veri toplamayız.</p>
+  <h2>Bildirimler</h2>
+  <p>Günlük fal hatırlatıcısını açarsanız uygulama, seçtiğiniz saatte cihazınızda yerel bir bildirim zamanlar. Bize ya da üçüncü bir tarafa herhangi bir bilgi gönderilmez. Hatırlatıcıyı uygulamadan veya sistem ayarlarınızdan kapatabilirsiniz.</p>
 
-<h3>Haklarınız</h3>
-<p>Hakkınızda kişisel veri tutmadığımız için dışa aktaracağımız ya da sileceğimiz bir şey yoktur. Google'ın reklam için işlediği veriler için yukarıdaki bağlantıya bakabilir ya da <em>Ayarlar → Reklam tercihlerini yönet</em> bölümünden onayınızı geri çekebilirsiniz.</p>
+  <h2>Paylaşım</h2>
+  <p>Bir sonucu ya da falı paylaştığınızda görsel cihazınızda oluşturulur ve sisteminizin paylaşım menüsü üzerinden seçtiğiniz uygulamaya aktarılır. Bu görselin bir kopyası bize ulaşmaz.</p>
 
-<h3>Değişiklikler ve iletişim</h3>
-<p>Politika değişirse yukarıdaki tarih de değişir. Sorular: <a href="mailto:privacy@onehelsing.example">privacy@onehelsing.example</a> <em>(yayına almadan önce gerçek adresinizle değiştirin)</em>.</p>
+  <h2>Çocuklar</h2>
+  <p>Uygulama 13 yaş ve üzeri kullanıcılar için tasarlanmıştır ve çocuklara yönelik değildir. Çocuklardan bilerek kişisel veri toplamayız.</p>
+
+  <h2>Haklarınız</h2>
+  <p>Hakkınızda herhangi bir kişisel veri tutmadığımız için tarafımızca aktarılabilecek, düzeltilebilecek ya da silinebilecek bir veri bulunmamaktadır. Google’ın reklam amacıyla işlediği veriler için yukarıda bağlantısı verilen Google politikasına başvurabilir veya Ayarlar → Reklam tercihlerini yönet bölümünden onayınızı geri çekebilirsiniz.</p>
+
+  <h2>Politikadaki değişiklikler</h2>
+  <p>Bu politikada değişiklik yapılması hâlinde güncel metin bu sayfada yayımlanır ve yukarıdaki tarih güncellenir.</p>
+
+  <h2>İletişim</h2>
+  <p>Bu politikayla ilgili sorularınız için: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a></p>
 </section>
 
-<section id="de">
-<h2>Datenschutzerklärung (Deutsch)</h2>
-<p>Diese App stammt von OneHelsing. Sie ist ein Partyspiel: Alle legen einen Finger auf das Display, die App wählt eine Person aus. Es gibt kein Konto und keinen Server von uns.</p>
+<!-- ============================== DEUTSCH ============================== -->
+<section id="de" lang="de">
+  <h1>Datenschutzerklärung</h1>
+  <p class="meta">Finger of Fate · OneHelsing Studio · Stand: 21. September 2026</p>
 
-<h3>Was gespeichert wird</h3>
-<ul>
-  <li><strong>Nur auf deinem Gerät:</strong> deine Einstellungen (Sprache, Ton, Vibration, Countdown, Design), deine Spielstatistik und Erfolge, deine Orakel-Serie und selbst angelegte Aufgaben-Decks. Diese Daten verlassen dein Telefon nicht und wir können sie nicht lesen. Beim Deinstallieren werden sie gelöscht.</li>
-  <li><strong>Wir betreiben keine Server</strong> für diese App und erheben, verkaufen oder teilen selbst keine personenbezogenen Daten.</li>
-</ul>
+  <p>Finger of Fate ist eine Party-App von OneHelsing Studio. Alle legen einen Finger auf den Bildschirm, und die App wählt zufällig eine Person aus. Für die Nutzung ist kein Konto erforderlich, und wir betreiben für die App keine eigenen Server. Diese Erklärung beschreibt, welche Informationen bei der Nutzung der App eine Rolle spielen.</p>
 
-<h3>Werbung</h3>
-<p>Damit die App kostenlos bleibt, wird Werbung über Google AdMob ausgeliefert. Dafür kann Google Daten wie deine Werbe-ID, Geräteinformationen, aus der IP-Adresse abgeleitete ungefähre Standortdaten und deine Interaktionen mit Anzeigen verarbeiten. Google handelt dabei als eigenständig Verantwortlicher bzw. Auftragsverarbeiter.</p>
-<ul>
-  <li>Erklärung von Google: <a href="https://policies.google.com/technologies/partner-sites">Wie Google Daten verwendet, wenn du Websites oder Apps unserer Partner nutzt</a></li>
-  <li>Im EWR, in Großbritannien und der Schweiz fragen wir vor personalisierter Werbung über Googles Einwilligungsplattform nach deiner Zustimmung. Du kannst sie jederzeit unter <em>Einstellungen → Werbeeinstellungen verwalten</em> ändern.</li>
-  <li>Deine Werbe-ID kannst du in den Geräteeinstellungen zurücksetzen oder löschen.</li>
-  <li>Auf der Spielfläche wird niemals Werbung angezeigt, solange Finger auf dem Display liegen.</li>
-</ul>
+  <h2>Auf Ihrem Gerät gespeicherte Informationen</h2>
+  <p>Die App speichert Folgendes ausschließlich auf Ihrem Gerät: Ihre Einstellungen (Sprache, Ton, Vibration, Countdown, Design), Ihre Spielstatistiken und Erfolge, Ihre Serie beim Tagesorakel sowie die von Ihnen erstellten Aufgabenstapel. Diese Informationen verlassen Ihr Gerät nicht, und wir haben keinen Zugriff darauf. Wenn Sie die App deinstallieren oder die App-Daten in den Systemeinstellungen löschen, werden sie dauerhaft entfernt.</p>
+  <p>Wir erheben, verkaufen und teilen keine personenbezogenen Daten.</p>
 
-<h3>Mitteilungen</h3>
-<p>Wenn du die tägliche Orakel-Erinnerung aktivierst, plant die App eine lokale Mitteilung zur gewählten Uhrzeit auf deinem Gerät. Es wird nichts an uns oder Dritte gesendet. Du kannst sie in der App oder in den Systemeinstellungen abschalten.</p>
+  <h2>Werbung</h2>
+  <p>Die App ist kostenlos und finanziert sich durch Werbung, die über Google AdMob ausgeliefert wird. Um Anzeigen auszuliefern und zu messen, kann Google Informationen wie Ihre Werbe-ID, Geräte- und App-Informationen, Ihren aus der IP-Adresse abgeleiteten ungefähren Standort sowie Ihre Interaktionen mit Anzeigen erheben und verarbeiten. Google verarbeitet diese Daten nach seiner eigenen Datenschutzerklärung. Wie Google Informationen aus Apps nutzt, die seine Dienste verwenden, erfahren Sie unter <a href="https://policies.google.com/technologies/partner-sites?hl=de">policies.google.com/technologies/partner-sites</a>.</p>
+  <ul>
+    <li>Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz holen wir über die Consent-Management-Plattform von Google Ihre Einwilligung ein, bevor personalisierte Werbung angezeigt wird. Sie können Ihre Auswahl jederzeit unter Einstellungen → Werbeeinstellungen verwalten ändern.</li>
+    <li>Ihre Werbe-ID können Sie in den Einstellungen Ihres Geräts zurücksetzen oder löschen.</li>
+    <li>Auf der Spielfläche wird niemals Werbung angezeigt, solange Finger auf dem Bildschirm liegen.</li>
+  </ul>
 
-<h3>Kinder</h3>
-<p>Die App ist ab 13 Jahren freigegeben und richtet sich nicht an Kinder. Wir erheben wissentlich keine Daten von Kindern.</p>
+  <h2>Benachrichtigungen</h2>
+  <p>Wenn Sie die Erinnerung an das Tagesorakel aktivieren, plant die App zur gewählten Uhrzeit eine lokale Benachrichtigung auf Ihrem Gerät. Es werden keine Daten an uns oder an Dritte übermittelt. Sie können die Erinnerung in der App oder in den Systemeinstellungen deaktivieren.</p>
 
-<h3>Deine Rechte</h3>
-<p>Da wir keine personenbezogenen Daten über dich speichern, gibt es bei uns nichts zu exportieren oder zu löschen. Für die von Google zu Werbezwecken verarbeiteten Daten siehe den Link oben oder widerrufe deine Einwilligung unter <em>Einstellungen → Werbeeinstellungen verwalten</em>.</p>
+  <h2>Teilen</h2>
+  <p>Wenn Sie ein Ergebnis oder ein Orakel teilen, wird das Bild auf Ihrem Gerät erstellt und über das Teilen-Menü Ihres Systems an die von Ihnen gewählte App übergeben. Wir erhalten keine Kopie.</p>
 
-<h3>Änderungen und Kontakt</h3>
-<p>Ändert sich diese Erklärung, ändert sich auch das Datum oben. Fragen: <a href="mailto:privacy@onehelsing.example">privacy@onehelsing.example</a> <em>(vor der Veröffentlichung durch eine echte Adresse ersetzen)</em>.</p>
+  <h2>Kinder</h2>
+  <p>Die App richtet sich an Personen ab 13 Jahren und ist nicht für Kinder bestimmt. Wir erheben nicht wissentlich personenbezogene Daten von Kindern.</p>
+
+  <h2>Ihre Rechte</h2>
+  <p>Da wir keine personenbezogenen Daten über Sie speichern, gibt es nichts, was wir herausgeben, berichtigen oder löschen könnten. Für Daten, die Google zu Werbezwecken verarbeitet, verweisen wir auf die oben verlinkten Hinweise von Google; Ihre Einwilligung können Sie unter Einstellungen → Werbeeinstellungen verwalten widerrufen.</p>
+
+  <h2>Änderungen dieser Erklärung</h2>
+  <p>Wenn sich diese Erklärung ändert, veröffentlichen wir die neue Fassung auf dieser Seite und aktualisieren das oben genannte Datum.</p>
+
+  <h2>Kontakt</h2>
+  <p>Fragen zu dieser Erklärung: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a></p>
 </section>
 
-<section id="ru">
-<h2>Политика конфиденциальности (Русский)</h2>
-<p>Приложение сделано командой OneHelsing. Это игра для компании: все кладут палец на экран, а приложение выбирает одного. Здесь нет ни аккаунта, ни наших серверов.</p>
+<!-- ============================== РУССКИЙ ============================== -->
+<section id="ru" lang="ru">
+  <h1>Политика конфиденциальности</h1>
+  <p class="meta">Finger of Fate · OneHelsing Studio · Последнее обновление: 21 сентября 2026 г.</p>
 
-<h3>Что хранится</h3>
-<ul>
-  <li><strong>Только на твоём устройстве:</strong> настройки (язык, звук, вибрация, обратный отсчёт, тема), игровая статистика и достижения, серия предсказаний и созданные тобой колоды заданий. Эти данные не покидают телефон, мы не можем их прочитать. Удаление приложения удаляет и их.</li>
-  <li><strong>У нас нет серверов</strong> для этого приложения: мы сами не собираем, не продаём и не передаём твои персональные данные.</li>
-</ul>
+  <p>Finger of Fate — приложение для компании, разработанное OneHelsing Studio. Все кладут палец на экран, и приложение случайным образом выбирает одного из участников. Для использования не требуется учётная запись, и мы не используем собственные серверы для работы приложения. В этой политике описано, какая информация задействована при использовании приложения.</p>
 
-<h3>Реклама</h3>
-<p>Чтобы приложение оставалось бесплатным, показывается реклама Google AdMob. Для показа рекламы Google может собирать и обрабатывать данные: рекламный идентификатор, сведения об устройстве, примерное местоположение по IP-адресу и взаимодействие с объявлениями. Google выступает самостоятельным оператором или обработчиком этих данных.</p>
-<ul>
-  <li>Пояснение Google: <a href="https://policies.google.com/technologies/partner-sites">Как Google использует информацию с сайтов и приложений, которые используют наши сервисы</a></li>
-  <li>В ЕЭЗ, Великобритании и Швейцарии перед персонализированной рекламой запрашивается согласие через платформу Google. Изменить выбор можно в любой момент: <em>Настройки → Настройки рекламы</em>.</li>
-  <li>Рекламный идентификатор можно сбросить или удалить в настройках устройства.</li>
-  <li>На игровом экране, пока пальцы на дисплее, реклама не показывается никогда.</li>
-</ul>
+  <h2>Информация, хранящаяся на вашем устройстве</h2>
+  <p>Приложение сохраняет только на вашем устройстве следующие данные: настройки (язык, звук, вибрация, обратный отсчёт, тема), игровую статистику и достижения, серию ежедневных предсказаний и созданные вами колоды заданий. Эти данные не покидают ваше устройство, и у нас нет к ним доступа. При удалении приложения или очистке его данных в настройках системы они удаляются безвозвратно.</p>
+  <p>Мы не собираем, не продаём и не передаём ваши персональные данные.</p>
 
-<h3>Уведомления</h3>
-<p>Если включить напоминание о предсказании дня, приложение планирует локальное уведомление на выбранное время прямо на устройстве. Ничего не отправляется ни нам, ни кому-либо ещё. Отключить можно в приложении или в настройках системы.</p>
+  <h2>Реклама</h2>
+  <p>Приложение бесплатное и финансируется за счёт рекламы, показываемой через Google AdMob. Для показа и оценки эффективности рекламы Google может собирать и обрабатывать такие данные, как рекламный идентификатор, сведения об устройстве и приложении, приблизительное местоположение, определяемое по IP-адресу, и ваши взаимодействия с рекламой. Google обрабатывает эти данные в соответствии с собственной политикой конфиденциальности. О том, как Google использует информацию из приложений, работающих с его сервисами, можно прочитать здесь: <a href="https://policies.google.com/technologies/partner-sites?hl=ru">policies.google.com/technologies/partner-sites</a>.</p>
+  <ul>
+    <li>В Европейской экономической зоне, Великобритании и Швейцарии мы запрашиваем ваше согласие через платформу управления согласием Google до показа персонализированной рекламы. Изменить свой выбор можно в любое время в разделе Настройки → Управление рекламными предпочтениями.</li>
+    <li>Рекламный идентификатор можно сбросить или удалить в настройках устройства.</li>
+    <li>Реклама никогда не показывается на игровом поле, пока пальцы находятся на экране.</li>
+  </ul>
 
-<h3>Дети</h3>
-<p>Приложение предназначено для пользователей от 13 лет и не адресовано детям. Мы осознанно не собираем данные детей.</p>
+  <h2>Уведомления</h2>
+  <p>Если вы включите напоминание о ежедневном предсказании, приложение запланирует локальное уведомление на вашем устройстве на выбранное время. Никакие данные не передаются ни нам, ни третьим лицам. Отключить напоминание можно в приложении или в настройках системы.</p>
 
-<h3>Твои права</h3>
-<p>Поскольку мы не храним твои персональные данные, нам нечего выгружать или удалять. По данным, которые Google обрабатывает для рекламы, см. ссылку выше или отзови согласие в разделе <em>Настройки → Настройки рекламы</em>.</p>
+  <h2>Функция «Поделиться»</h2>
+  <p>Когда вы делитесь результатом или предсказанием, изображение создаётся на вашем устройстве и передаётся в выбранное вами приложение через системное меню «Поделиться». Копия изображения к нам не поступает.</p>
 
-<h3>Изменения и контакты</h3>
-<p>Если политика изменится, изменится и дата вверху. Вопросы: <a href="mailto:privacy@onehelsing.example">privacy@onehelsing.example</a> <em>(перед публикацией замени на реальный адрес)</em>.</p>
+  <h2>Дети</h2>
+  <p>Приложение предназначено для пользователей от 13 лет и не ориентировано на детей. Мы сознательно не собираем персональные данные детей.</p>
+
+  <h2>Ваши права</h2>
+  <p>Поскольку мы не храним ваши персональные данные, у нас нет данных, которые можно было бы предоставить, исправить или удалить. В отношении данных, обрабатываемых Google в рекламных целях, обратитесь к политике Google по ссылке выше либо отзовите согласие в разделе Настройки → Управление рекламными предпочтениями.</p>
+
+  <h2>Изменения в политике</h2>
+  <p>При изменении этой политики мы опубликуем новую редакцию на этой странице и обновим указанную выше дату.</p>
+
+  <h2>Контакты</h2>
+  <p>Вопросы по этой политике: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a></p>
 </section>
 
+</main>
 </body>
 </html>
