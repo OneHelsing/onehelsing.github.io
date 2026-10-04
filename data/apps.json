@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "wordsody",
+    "accent": "#E4572E",
+    "languages": 7,
+    "appStore": null,
+    "googlePlay": null,
+    "en": {
+      "name": "Wordsody",
+      "tagline": "A word puzzle journey in seven languages.",
+      "category": "Word game",
+      "description": ["Connect letters on a wheel, fill the crossword, and travel through endless hand-drawn worlds. Every level is generated on the device, so the journey never runs out.", "Each word you find has its own meaning card with translations into six other languages, and goes into your personal notebook with a smart review. Learn-a-language mode turns the game into a gentle teacher."],
+      "features": ["Endless levels, 20-level worlds and postcards", "Word of the Day and Daily Puzzle with streaks", "Meaning cards and translations for 28,000+ words", "Learn-a-language mode and spaced-repetition review", "English, Turkish, German, Spanish, Portuguese, Russian, Kurmanji"]
+    },
+    "tr": {
+      "name": "Wordsody",
+      "tagline": "Yedi dilde kelime bulmaca yolculuğu.",
+      "category": "Kelime oyunu",
+      "description": ["Çarktaki harfleri birleştir, bulmacayı doldur, kodla çizilmiş sonsuz dünyaları gez. Her seviye cihazda üretilir; yolculuk hiç bitmez.", "Bulduğun her kelimenin anlam kartı ve altı dile çevirisi var; kelimeler akıllı tekrarla kişisel defterine girer. Dil öğren modu oyunu nazik bir öğretmene dönüştürür."],
+      "features": ["Sonsuz seviye, 20 seviyelik dünyalar ve kartpostallar", "Seriyle Günün Kelimesi ve Günün Bulmacası", "28.000'den fazla kelime için anlam kartı ve çeviri", "Dil öğren modu ve aralıklı tekrar", "Türkçe, İngilizce, Almanca, İspanyolca, Portekizce, Rusça, Kurmancî"]
+    }
+  },
+  {
+    "slug": "fate-party",
+    "accent": "#8A5CFF",
+    "languages": 7,
+    "appStore": null,
+    "googlePlay": null,
+    "en": {
+      "name": "Fate Party",
+      "tagline": "Eight party games on one phone, hosted by the Eye.",
+      "category": "Party game",
+      "description": ["Spy, Truth or Dare, Heads Up, Quiz and more — eight games for 2 to 12 players, all on a single phone passed around the room.", "The Eye runs the night: it picks the games, reads the cards, comments on everything and sums up the evening at the end."],
+      "features": ["8 games and 1,200+ free cards", "A new weekly deck and your own custom decks", "Night summary with awards", "Seven languages, no account, works offline"]
+    },
+    "tr": {
+      "name": "Fate Party",
+      "tagline": "Tek telefonda sekiz parti oyunu, sunucusu Göz.",
+      "category": "Parti oyunu",
+      "description": ["Casus, Doğruluk mu Cesaret mi, Alnına Tut, Bilgi Yarışması ve dahası: 2-12 kişi için sekiz oyun, elden ele dolaşan tek bir telefonda.", "Geceyi Göz yönetir: oyunları seçer, kartları okur, her şeye laf atar ve gecenin sonunda özet çıkarır."],
+      "features": ["8 oyun ve 1.200'den fazla ücretsiz kart", "Her hafta yeni deste ve kendi destelerin", "Ödüllü gece özeti", "Yedi dil, hesap yok, internetsiz çalışır"]
+    }
+  },
+  {
+    "slug": "spinsody",
+    "accent": "#22B8CF",
+    "languages": 7,
+    "appStore": null,
+    "googlePlay": null,
+    "en": {
+      "name": "Spinsody",
+      "tagline": "A fidget spinner that plays music.",
+      "category": "Relaxation",
+      "description": ["Build your own spinner from real materials and physics, spin it, and hear the melody its arms play as they pass an invisible comb.", "Paint with centrifugal force, breathe with a calming wheel, or blow on the microphone and turn it into a pinwheel."],
+      "features": ["Six bodies, eight materials, real physics", "Five sound modes and matching vibration", "Spin painting, breathing and sleep modes", "Daily challenge and a two-player battle"]
+    },
+    "tr": {
+      "name": "Spinsody",
+      "tagline": "Müzik çalan stres çarkı.",
+      "category": "Rahatlama",
+      "description": ["Gerçek malzemeler ve fizikle kendi çarkını yap, döndür, kolları görünmez bir tarağa çarptıkça çaldığı melodiyi dinle.", "Merkezkaç kuvvetiyle resim yap, sakinleştiren çarkla nefes al ya da mikrofona üfleyip rüzgâr gülüne çevir."],
+      "features": ["Altı gövde, sekiz malzeme, gerçek fizik", "Beş ses modu ve uyumlu titreşim", "Döndürerek boyama, nefes ve uyku modları", "Günlük meydan okuma ve iki kişilik düello"]
+    }
+  },
+  {
+    "slug": "blopsody",
+    "accent": "#FF6B9A",
+    "languages": 7,
+    "appStore": null,
+    "googlePlay": null,
+    "en": {
+      "name": "Blopsody",
+      "tagline": "Blocks with faces. Every game becomes your song.",
+      "category": "Puzzle",
+      "description": ["A block puzzle where the blocks are alive: seven little characters, each with its own note, who get nervous when the board fills and cheer when a line clears.", "Every move plays music. When the game ends, Blopsody turns your moves into a real little song, names it and plays it back."],
+      "features": ["Every game turns into a unique song", "A coach that shows the one move that mattered", "Daily puzzle, album and home-screen widget", "No ads while you play"]
+    },
+    "tr": {
+      "name": "Blopsody",
+      "tagline": "Yüzü olan bloklar. Her oyun senin şarkın olur.",
+      "category": "Bulmaca",
+      "description": ["Blokların canlı olduğu bir blok bulmacası: her biri kendi notası olan yedi küçük karakter; tahta dolunca geriliyor, satır temizlenince seviniyorlar.", "Her hamle müzik çalar. Oyun bitince Blopsody hamlelerini gerçek bir şarkıya dönüştürür, ona bir ad verir ve çalar."],
+      "features": ["Her oyun eşsiz bir şarkıya dönüşür", "En çok etkileyen tek hamleyi gösteren koç", "Günlük bulmaca, albüm ve ana ekran widget'ı", "Oynarken reklam yok"]
+    }
+  },
+  {
+    "slug": "finger-of-fate",
+    "accent": "#FFB020",
+    "languages": 4,
+    "appStore": null,
+    "googlePlay": null,
+    "en": {
+      "name": "Finger of Fate",
+      "tagline": "Fingers down. Fate decides.",
+      "category": "Party tool",
+      "description": ["Who pays the bill? Who does the dishes? Everyone puts a finger on the screen and Fate picks one — then teases the loser.", "Coin toss, dice and a daily fortune for when you are alone."],
+      "features": ["Multi-touch picker for groups", "Teams, coin, dice and daily fortune", "Playful lines from Fate", "English, Turkish, German, Russian"]
+    },
+    "tr": {
+      "name": "Kader Parmağı",
+      "tagline": "Parmaklar ekrana, Kader seçsin.",
+      "category": "Parti aracı",
+      "description": ["Hesabı kim ödeyecek? Bulaşığı kim yıkayacak? Herkes parmağını ekrana koyar, Kader birini seçer, sonra da laf sokar.", "Yalnızken yazı tura, zar ve günün falı."],
+      "features": ["Gruplar için çoklu dokunmayla seçim", "Takımlar, yazı tura, zar ve günün falı", "Kader'den esprili laflar", "Türkçe, İngilizce, Almanca, Rusça"]
+    }
+  }
+]
