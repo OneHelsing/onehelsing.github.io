@@ -88,7 +88,7 @@
     "accent": "#FFB020",
     "languages": 4,
     "appStore": null,
-    "googlePlay": null,
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.onehelsing.finger_picker",
     "en": {
       "name": "Finger of Fate",
       "tagline": "Fingers down. Fate decides.",
@@ -102,6 +102,51 @@
       "category": "Parti aracı",
       "description": ["Hesabı kim ödeyecek? Bulaşığı kim yıkayacak? Herkes parmağını ekrana koyar, Kader birini seçer, sonra da laf sokar.", "Yalnızken yazı tura, zar ve günün falı."],
       "features": ["Gruplar için çoklu dokunmayla seçim", "Takımlar, yazı tura, zar ve günün falı", "Kader'den esprili laflar", "Türkçe, İngilizce, Almanca, Rusça"]
+    }
+  },
+  {
+    "slug": "nazarly",
+    "accent": "#2563EB",
+    "languages": 12,
+    "appStore": null,
+    "googlePlay": null,
+    "en": {
+      "name": "Nazarly",
+      "tagline": "Give your friends the evil eye. They break it with a ritual.",
+      "category": "Social game",
+      "description": ["A light, folklore-inspired game for friends. Tap a friend to send a nazar 🧿; they get a notification and break it with a playful ritual from their own culture: molten lead, knocking on wood, “tfu tfu tfu”, oil on water, nimbu-mirchi and more.", "In folklore the evil eye comes from admiration, so every nazar is a compliment in disguise. Nothing bad ever happens: an unbroken nazar only cracks your charm a little, and it fades on its own after seven days."],
+      "features": ["18 rituals from 12 cultures, open to everyone", "Shields, Strong Nazar and “Who sent it?”", "Only mutual friends, no free text, block and mute always free", "Home-screen widget with your own charm", "12 languages, including Arabic, Persian, Hindi, Hebrew and Kurmanji"]
+    },
+    "tr": {
+      "name": "Nazarly",
+      "tagline": "Arkadaşına nazar değdir, o da bir ritüelle bozsun.",
+      "category": "Sosyal oyun",
+      "description": ["Folklordan esinlenen hafif bir arkadaş oyunu. Bir arkadaşına dokun, nazarın yola çıksın 🧿; ona bildirim gider, nazarı kendi kültürünün eğlenceli bir ritüeliyle bozar: kurşun dökme, tahtaya vurma, “tu tu tu”, yağ-su, nimbu-mirçi ve dahası.", "Nazar hayranlıktan gelir; burada da her nazar kılık değiştirmiş bir iltifat. Kötü hiçbir şey olmaz: bozulmayan nazar yalnızca nazarlığını biraz çatlatır ve yedi günde kendiliğinden söner."],
+      "features": ["12 kültürden 18 ritüel, hepsi herkese açık", "Kalkan, Güçlü Nazar ve “Kim gönderdi?”", "Yalnızca karşılıklı arkadaşlar, serbest metin yok, engelleme ve sessize alma hep ücretsiz", "Kendi nazarlığınla ana ekran widget'ı", "Arapça, Farsça, Hintçe, İbranice ve Kurmancî dahil 12 dil"]
+    }
+  },
+  {
+    "slug": "gundas",
+    "accent": "#D4A537",
+    "languages": 1,
+    "appStore": null,
+    "googlePlay": null,
+    "privacy": false,
+    "en": {
+      "name": "Gündaş",
+      "tagline": "Organise your gold, currency and money days.",
+      "category": "Organiser",
+      "languagesLabel": "Turkish only",
+      "description": ["In Turkey, friends, neighbours and colleagues take turns: at every meeting everyone brings a set amount of gold, currency or money, and one person receives it all. Gündaş replaces the notebook and the WhatsApp chaos: set up the group, draw the order together and see who has given.", "Gündaş is only a ledger: it never holds, moves or collects money or gold. It is available in Turkish, for Turkey."],
+      "features": ["Fair draw made on the server, visible to everyone", "Who gave: the giver and the receiver both confirm", "Indicative lira value of each day, kept on record", "Turn swaps, reminders, history and a fairness panel", "Gold, currency, money and kabul days; invite by link or QR"]
+    },
+    "tr": {
+      "name": "Gündaş",
+      "tagline": "Altın, döviz ve para günün için düzenleyici.",
+      "category": "Düzenleyici",
+      "languagesLabel": "Yalnızca Türkçe",
+      "description": ["Altın gününü defterden, WhatsApp karmaşasından ve “kim vermedi?” tartışmasından kurtar: günü kur, kurayı birlikte çek, sırayı herkes görsün, her günün TL karşılığı kayıtta kalsın.", "Gündaş yalnızca bir defterdir: para ya da altın tutmaz, aktarmaz, toplamaz. Türkiye için, Türkçe olarak hazırlanıyor."],
+      "features": ["Sunucuda çekilen, herkesin gördüğü adil kura", "Kim verdi: veren de alan da onaylar", "Her günün gösterge TL karşılığı kayıtta", "Sıra takası, hatırlatma, geçmiş ve adalet paneli", "Altın, döviz, para ve kabul günü; bağlantı ya da QR ile davet"]
     }
   }
 ]

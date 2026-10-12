@@ -7,6 +7,9 @@ Uygulamalar data/apps.json'da. Yeni uygulama: kaydı ekle, görselleri
 assets/apps/<slug>/ altına koy (icon.png, en_1..4.jpg, tr_1..4.jpg), betiği
 çalıştır. Mağaza linkleri (appStore, googlePlay) boşsa "Yakında" görünür.
 Gizlilik sayfaları (<slug>/privacy/) elle yazılır; betik onlara dokunmaz.
+Henüz gizlilik sayfası yoksa "privacy": false yaz; link verilmez. Ekran
+görüntüsü yoksa galeri atlanır. Tek dilli uygulamada en/tr "languagesLabel"
+dil çipinin yerine geçer.
 """
 import html
 import json
@@ -76,8 +79,25 @@ FOOT = f"""<footer><div class="wrap">
 """
 
 
-def status_chip():
+def status_chip(a):
+    live = [(n, t) for k, n, t in (("googlePlay", "Google Play", "Google Play'de"),
+                                   ("appStore", "App Store", "App Store'da")) if a.get(k)]
+    if live:
+        en = "On " + " · ".join(n for n, _ in live)
+        tr = " · ".join(t for _, t in live)
+        return f'<span class="chip soon">{both(en, tr)}</span>'
     return f'<span class="chip soon">{both("Coming soon", "Yakında")}</span>'
+
+
+def lang_chip(a):
+    en, tr = a["en"], a["tr"]
+    if en.get("languagesLabel"):
+        return both(esc(en["languagesLabel"]), esc(tr["languagesLabel"]))
+    return both(f"{a['languages']} languages", f"{a['languages']} dil")
+
+
+def has_privacy(a):
+    return a.get("privacy", True)
 
 
 def app_card(a):
@@ -86,9 +106,9 @@ def app_card(a):
   <img class="icon" src="/assets/apps/{a['slug']}/icon.png" alt="" width="72" height="72" loading="lazy">
   <div><h3>{both(esc(en['name']), esc(tr['name']))}</h3>
   <p>{both(esc(en['tagline']), esc(tr['tagline']))}</p></div>
-  <div class="chips">{status_chip()}<span class="chip">iOS</span><span class="chip">Android</span>
+  <div class="chips">{status_chip(a)}<span class="chip">iOS</span><span class="chip">Android</span>
   <span class="chip">{both(esc(en['category']), esc(tr['category']))}</span>
-  <span class="chip">{both(f"{a['languages']} languages", f"{a['languages']} dil")}</span></div>
+  <span class="chip">{lang_chip(a)}</span></div>
 </a>"""
 
 
@@ -136,7 +156,7 @@ def index(apps):
     )
     mail = f"mailto:{EMAIL}?subject=Project%20idea%20%2F%20Proje%20fikri"
     privacy = " ".join(
-        f'<a href="/{a["slug"]}/privacy/">{both(esc(a["en"]["name"]), esc(a["tr"]["name"]))}</a>' for a in apps
+        f'<a href="/{a["slug"]}/privacy/">{both(esc(a["en"]["name"]), esc(a["tr"]["name"]))}</a>' for a in apps if has_privacy(a)
     )
     body = f"""
 <main>
@@ -222,6 +242,8 @@ def app_page(a):
     shots = ""
     for lang in ("en", "tr"):
         imgs = sorted(f for f in os.listdir(d) if f.startswith(lang + "_"))
+        if not imgs:
+            continue
         shots += f'<div class="shots" lang="{lang}">' + "".join(
             f'<img src="/assets/apps/{a["slug"]}/{f}" alt="" loading="lazy">' for f in imgs
         ) + "</div>"
@@ -248,8 +270,8 @@ def app_page(a):
 </main>
 """
     title = f"{en['name']} — {en['tagline']}"
-    privacy = f'<a href="/{a["slug"]}/privacy/">{both("Privacy policy", "Gizlilik politikası")}</a>'
-    image = f"{SITE}/assets/apps/{a['slug']}/en_1.jpg"
+    privacy = f'<a href="/{a["slug"]}/privacy/">{both("Privacy policy", "Gizlilik politikası")}</a>' if has_privacy(a) else ""
+    image = f"{SITE}/assets/apps/{a['slug']}/en_1.jpg" if os.path.exists(os.path.join(d, "en_1.jpg")) else None
     return head(title, en["description"][0], f"/{a['slug']}/", image) + body + FOOT.replace("{privacy}", privacy)
 
 
