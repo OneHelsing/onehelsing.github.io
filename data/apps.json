@@ -67,7 +67,7 @@
     "accent": "#FF6B9A",
     "languages": 7,
     "appStore": null,
-    "googlePlay": null,
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.onehelsing.blopsody",
     "en": {
       "name": "Blopsody",
       "tagline": "Blocks with faces. Every game becomes your song.",
