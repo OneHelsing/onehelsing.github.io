@@ -131,7 +131,7 @@
     "languages": 1,
     "appStore": null,
     "googlePlay": null,
-    "privacy": false,
+    "privacy": true,
     "en": {
       "name": "Gündaş",
       "tagline": "Organise your gold, currency and money days.",
