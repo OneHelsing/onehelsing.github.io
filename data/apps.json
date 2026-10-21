@@ -46,7 +46,7 @@
     "accent": "#22B8CF",
     "languages": 7,
     "appStore": null,
-    "googlePlay": null,
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.onehelsing.spinsody",
     "en": {
       "name": "Spinsody",
       "tagline": "A fidget spinner that plays music.",
