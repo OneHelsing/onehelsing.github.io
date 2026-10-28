@@ -2,19 +2,19 @@
   {
     "slug": "wordsody",
     "accent": "#E4572E",
-    "languages": 7,
+    "languages": 12,
     "appStore": null,
-    "googlePlay": null,
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.onehelsing.wordsody",
     "en": {
       "name": "Wordsody",
-      "tagline": "A word puzzle journey in seven languages.",
+      "tagline": "A word puzzle journey in twelve languages.",
       "category": "Word game",
       "description": ["Connect letters on a wheel, fill the crossword, and travel through endless hand-drawn worlds. Every level is generated on the device, so the journey never runs out.", "Each word you find has its own meaning card with translations into six other languages, and goes into your personal notebook with a smart review. Learn-a-language mode turns the game into a gentle teacher."],
       "features": ["Endless levels, 20-level worlds and postcards", "Word of the Day and Daily Puzzle with streaks", "Meaning cards and translations for 28,000+ words", "Learn-a-language mode and spaced-repetition review", "English, Turkish, German, Spanish, Portuguese, Russian, Kurmanji"]
     },
     "tr": {
       "name": "Wordsody",
-      "tagline": "Yedi dilde kelime bulmaca yolculuğu.",
+      "tagline": "On iki dilde kelime bulmaca yolculuğu.",
       "category": "Kelime oyunu",
       "description": ["Çarktaki harfleri birleştir, bulmacayı doldur, kodla çizilmiş sonsuz dünyaları gez. Her seviye cihazda üretilir; yolculuk hiç bitmez.", "Bulduğun her kelimenin anlam kartı ve altı dile çevirisi var; kelimeler akıllı tekrarla kişisel defterine girer. Dil öğren modu oyunu nazik bir öğretmene dönüştürür."],
       "features": ["Sonsuz seviye, 20 seviyelik dünyalar ve kartpostallar", "Seriyle Günün Kelimesi ve Günün Bulmacası", "28.000'den fazla kelime için anlam kartı ve çeviri", "Dil öğren modu ve aralıklı tekrar", "Türkçe, İngilizce, Almanca, İspanyolca, Portekizce, Rusça, Kurmancî"]
@@ -25,7 +25,7 @@
     "accent": "#8A5CFF",
     "languages": 7,
     "appStore": null,
-    "googlePlay": null,
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.onehelsing.fate_party",
     "en": {
       "name": "Fate Party",
       "tagline": "Eight party games on one phone, hosted by the Eye.",
@@ -44,7 +44,7 @@
   {
     "slug": "spinsody",
     "accent": "#22B8CF",
-    "languages": 7,
+    "languages": 18,
     "appStore": null,
     "googlePlay": "https://play.google.com/store/apps/details?id=com.onehelsing.spinsody",
     "en": {
@@ -65,7 +65,7 @@
   {
     "slug": "blopsody",
     "accent": "#FF6B9A",
-    "languages": 7,
+    "languages": 18,
     "appStore": null,
     "googlePlay": "https://play.google.com/store/apps/details?id=com.onehelsing.blopsody",
     "en": {
@@ -147,6 +147,27 @@
       "languagesLabel": "Yalnızca Türkçe",
       "description": ["Altın gününü defterden, WhatsApp karmaşasından ve “kim vermedi?” tartışmasından kurtar: günü kur, kurayı birlikte çek, sırayı herkes görsün, her günün TL karşılığı kayıtta kalsın.", "Gündaş yalnızca bir defterdir: para ya da altın tutmaz, aktarmaz, toplamaz. Türkiye için, Türkçe olarak hazırlanıyor."],
       "features": ["Sunucuda çekilen, herkesin gördüğü adil kura", "Kim verdi: veren de alan da onaylar", "Her günün gösterge TL karşılığı kayıtta", "Sıra takası, hatırlatma, geçmiş ve adalet paneli", "Altın, döviz, para ve kabul günü; bağlantı ya da QR ile davet"]
+    }
+  },
+  {
+    "slug": "dengo",
+    "accent": "#0F9D74",
+    "languages": 3,
+    "appStore": null,
+    "googlePlay": null,
+    "en": {
+      "name": "Dengo",
+      "tagline": "Learn Kurdish through real people’s voices.",
+      "category": "Language learning",
+      "description": ["Every sentence in Dengo was spoken by a real person. Listen, read along and learn Kurdish by ear, in short lessons with no pressure and no account.", "Lessons work offline and your progress stays on your phone. Picture books, a dictionary and a “say it yourself” exercise help you hear, read and speak."],
+      "features": ["Real voices from open recordings", "Short lessons, no account", "Picture books and a dictionary", "“Say it yourself” speaking practice", "English, Turkish and Kurmanji"]
+    },
+    "tr": {
+      "name": "Dengo",
+      "tagline": "Kürtçeyi gerçek insanların sesinden öğren.",
+      "category": "Dil öğrenme",
+      "description": ["Dengo’daki her cümleyi gerçek bir insan seslendirdi. Dinle, okuyarak takip et ve Kürtçeyi kulaktan öğren: kısa dersler, baskı yok, hesap yok.", "Dersler çevrimdışı çalışır, ilerlemen telefonunda kalır. Resimli kitaplar, sözlük ve “Sen söyle” alıştırması duymana, okumana ve konuşmana yardım eder."],
+      "features": ["Açık kayıtlardan gerçek sesler", "Kısa dersler, hesap yok", "Resimli kitaplar ve sözlük", "“Sen söyle” konuşma alıştırması", "Türkçe, İngilizce ve Kurmancî"]
     }
   }
 ]
