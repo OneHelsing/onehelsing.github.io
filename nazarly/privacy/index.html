@@ -68,7 +68,7 @@
 <!-- ============================== ENGLISH ============================== -->
 <section id="en" lang="en">
   <h1>Privacy Policy</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · Last updated: 11 October 2026</p>
+  <p class="meta">Nazarly · OneHelsing Studio · Last updated: 30 October 2026</p>
 
   <p>Nazarly is a playful social game inspired by evil-eye folklore, developed by OneHelsing Studio. You add friends, send them a “nazar” with one tap, and they break it with a short ritual. Unlike our offline games, Nazarly needs an online service so that friends can reach each other. This policy explains what we store, why, for how long, and what you can do about it. The data controller is OneHelsing Studio, reachable at <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>.</p>
 
@@ -100,7 +100,7 @@
 
   <h2>Service providers and where data is stored</h2>
   <ul>
-    <li><b>Google Firebase</b> (Authentication, Cloud Firestore, Cloud Functions, Cloud Messaging, Hosting). Our database and server functions run in the europe-west1 region (Belgium).</li>
+    <li><b>Google Firebase</b> (Authentication, Cloud Firestore, Cloud Functions, Cloud Messaging, Hosting, Analytics, Crashlytics). Our database and server functions run in the europe-west1 region (Belgium).</li>
     <li><b>Google AdMob</b> for ads, including rewarded-ad verification.</li>
     <li><b>Google Play</b> for payments and subscriptions, and the Play Install Referrer, which passes an invite code from an invite link to the app after installation.</li>
   </ul>
@@ -110,9 +110,13 @@
   <p>Nazarly is free and is funded by ads served through Google AdMob. To deliver and measure ads, Google may process your advertising ID, device and app information, an approximate location derived from your IP address and your interactions with ads, under its own policy: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
   <ul>
     <li>In the European Economic Area, the United Kingdom and Switzerland, we ask for your consent through Google’s consent management platform before personalised ads are shown; you can change your choice later in the app’s settings.</li>
-    <li>No ads appear on the friends grid, during rituals, on the nazar screen, during sign-up or on the shop and paywall. Rewarded ads are always optional and start only when you tap.</li>
-    <li>On iPhone, the app asks once for Apple’s tracking permission; ads work the same if you decline.</li>
+    <li>A small banner ad is shown on most screens, including the friends grid (at the bottom, separated by a gap) and rituals (at the top), but never under the area you tap or drag. Full-screen ads never appear during a ritual or sign-up; they may appear occasionally when you return from a ritual result. Eye Mode and the no-ads option remove banners and full-screen ads. Rewarded ads are always optional and start only when you tap.</li>
+    <li>On iPhone, Nazarly does not track you and does not ask for Apple’s tracking permission; ads there are not personalised.</li>
   </ul>
+
+  <h2>Analytics and crash reports</h2>
+  <p>To understand which features are used and to fix crashes, the app uses <b>Google Firebase Analytics</b> and <b>Firebase Crashlytics</b>. Analytics receives in-app events such as “a nazar was sent”, “a nazar was broken with ritual X”, “a sender was revealed (with an ad, a credit or Eye Mode)”, “an invite was shared”, “a friend was added”, “a purchase was completed (product)” and “a banner loaded”, together with device and app information, a random app-instance ID and, on Android where allowed, the advertising ID. Your username, display name, friends’ names, account ID, invite code and compliments are never sent, and analytics is not linked to your account. Crashlytics receives crash and error reports (stack trace, device model, OS and app version, a random installation ID) from release builds only.</p>
+  <p>Collection starts switched off and is enabled only once your consent choice is known: in the EEA, the UK and Switzerland, analytics storage and advertising identifiers follow the choice you make in the consent form (without consent, data is sent without identifiers). Legal basis: our legitimate interest in keeping the app working and improving it (GDPR Art. 6(1)(f), KVKK Art. 5(2)(f)), and your consent where required. Analytics data is kept for up to 14 months and crash reports for 90 days. On iPhone, no advertising ID is collected.</p>
 
   <h2>In-app purchases</h2>
   <p>Eye Mode (an auto-renewing subscription), Eye credits, shields, charm designs and the no-ads option are sold through Google Play or the App Store. We never see your payment details. Our server checks each purchase with the store and only then adds the item to your account. You can cancel a subscription at any time in your store account; the price, period and renewal terms are shown before you buy.</p>
@@ -151,7 +155,7 @@
 <!-- ============================== TÜRKÇE ============================== -->
 <section id="tr" lang="tr">
   <h1>Gizlilik Politikası</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · Son güncelleme: 11 Ekim 2026</p>
+  <p class="meta">Nazarly · OneHelsing Studio · Son güncelleme: 30 Ekim 2026</p>
   <p class="note">Bu çeviri kolaylık içindir; anlam farkı olursa İngilizce sürüm esas alınır.</p>
 
   <p>Nazarly, OneHelsing Studio tarafından geliştirilen, nazar folklorundan esinlenen şakacı bir sosyal oyundur. Arkadaş eklersiniz, onlara tek dokunuşla “nazar” değdirirsiniz, onlar da kısa bir ritüelle bozar. Çevrimdışı oyunlarımızdan farklı olarak Nazarly'nin, arkadaşların birbirine ulaşabilmesi için çevrimiçi bir hizmete ihtiyacı vardır. Bu politika neyi, neden, ne kadar süre sakladığımızı ve sizin neler yapabileceğinizi açıklar. Veri sorumlusu OneHelsing Studio'dur: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>.</p>
@@ -184,7 +188,7 @@
 
   <h2>Hizmet sağlayıcılar ve verinin saklandığı yer</h2>
   <ul>
-    <li><b>Google Firebase</b> (Authentication, Cloud Firestore, Cloud Functions, Cloud Messaging, Hosting). Veritabanımız ve sunucu işlevlerimiz europe-west1 bölgesinde (Belçika) çalışır.</li>
+    <li><b>Google Firebase</b> (Authentication, Cloud Firestore, Cloud Functions, Cloud Messaging, Hosting, Analytics, Crashlytics). Veritabanımız ve sunucu işlevlerimiz europe-west1 bölgesinde (Belçika) çalışır.</li>
     <li><b>Google AdMob</b>: reklamlar ve ödüllü reklam doğrulaması.</li>
     <li><b>Google Play</b>: ödemeler ve abonelikler; ayrıca davet bağlantısındaki kodu kurulumdan sonra uygulamaya ileten Play Install Referrer.</li>
   </ul>
@@ -194,9 +198,13 @@
   <p>Nazarly ücretsizdir ve Google AdMob üzerinden gösterilen reklamlarla finanse edilir. Google, reklamları sunmak ve ölçmek için reklam kimliğinizi, cihaz ve uygulama bilgilerinizi, IP adresinizden türetilen yaklaşık konumunuzu ve reklam etkileşimlerinizi kendi politikası kapsamında işleyebilir: <a href="https://policies.google.com/technologies/partner-sites?hl=tr">policies.google.com/technologies/partner-sites</a>.</p>
   <ul>
     <li>Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de kişiselleştirilmiş reklam göstermeden önce Google'ın rıza yönetim platformuyla onayınızı alırız; tercihinizi sonradan uygulama ayarlarından değiştirebilirsiniz.</li>
-    <li>Arkadaş ızgarasında, ritüeller sırasında, Nazar ekranında, kayıt sırasında, mağazada ve ödeme ekranında reklam yoktur. Ödüllü reklamlar her zaman isteğe bağlıdır ve yalnızca siz dokununca başlar.</li>
-    <li>iPhone'da uygulama Apple'ın izleme iznini bir kez sorar; reddederseniz reklamlar yine aynı şekilde çalışır.</li>
+    <li>Küçük bir banner reklam çoğu ekranda görünür; arkadaş ızgarasında altta (arada boşlukla), ritüellerde üstte durur ve hiçbir zaman dokunduğunuz ya da sürüklediğiniz alanın altında olmaz. Tam ekran reklam ritüel ya da kayıt sırasında asla çıkmaz; yalnızca ritüel sonucundan dönerken ara sıra gösterilebilir. Göz Modu ve reklamsız seçenek banner'ı ve tam ekran reklamları kaldırır. Ödüllü reklamlar her zaman isteğe bağlıdır ve yalnızca siz dokununca başlar.</li>
+    <li>iPhone'da Nazarly sizi izlemez ve Apple'ın izleme iznini sormaz; orada reklamlar kişiselleştirilmez.</li>
   </ul>
+
+  <h2>Analiz ve çökme raporları</h2>
+  <p>Hangi özelliklerin kullanıldığını anlamak ve çökmeleri düzeltmek için uygulama <b>Google Firebase Analytics</b> ve <b>Firebase Crashlytics</b> kullanır. Analytics'e “nazar gönderildi”, “nazar X ritüeliyle bozuldu”, “gönderen açıldı (reklamla, krediyle ya da Göz Modu'yla)”, “davet paylaşıldı”, “arkadaş eklendi”, “satın alma tamamlandı (ürün)” ve “banner yüklendi” gibi uygulama içi olaylar; cihaz ve uygulama bilgisi, rastgele bir uygulama örneği kimliği ve Android'de izin varsa reklam kimliği gider. Kullanıcı adınız, görünen adınız, arkadaşlarınızın adları, hesap kimliğiniz, davet kodunuz ve iltifatlar asla gönderilmez; analiz verisi hesabınızla eşleştirilmez. Crashlytics'e yalnızca yayın sürümünden çökme ve hata raporları (hata yığını, cihaz modeli, işletim sistemi ve uygulama sürümü, rastgele bir kurulum kimliği) gider.</p>
+  <p>Toplama kapalı başlar ve ancak rıza tercihiniz bilindikten sonra açılır: Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de analiz depolaması ve reklam kimlikleri rıza formundaki seçiminize uyar (rıza yoksa veri kimliksiz gönderilir). Hukuki sebep: uygulamayı çalışır tutma ve iyileştirmedeki meşru menfaatimiz (GDPR md. 6(1)(f), KVKK md. 5(2)(f)) ve gerektiğinde rızanız. Analiz verisi en çok 14 ay, çökme raporları 90 gün saklanır. iPhone'da reklam kimliği toplanmaz.</p>
 
   <h2>Uygulama içi satın alma</h2>
   <p>Göz Modu (otomatik yenilenen abonelik), Göz kredileri, kalkanlar, nazarlık tasarımları ve reklamsız seçeneği Google Play ya da App Store üzerinden satılır. Ödeme bilgilerinizi hiçbir zaman görmeyiz. Sunucumuz her satın almayı mağazayla doğrular ve ancak ondan sonra eşyayı hesabınıza ekler. Aboneliği mağaza hesabınızdan dilediğiniz zaman iptal edebilirsiniz; fiyat, süre ve yenileme koşulları satın almadan önce gösterilir.</p>
@@ -235,7 +243,7 @@
 <!-- ============================== ΕΛΛΗΝΙΚΑ ============================== -->
 <section id="el" lang="el">
   <h1>Πολιτική απορρήτου</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · Τελευταία ενημέρωση: 11 Οκτωβρίου 2026</p>
+  <p class="meta">Nazarly · OneHelsing Studio · Τελευταία ενημέρωση: 30 Οκτωβρίου 2026</p>
   <p class="note">Η μετάφραση παρέχεται για διευκόλυνση· σε περίπτωση απόκλισης ισχύει η αγγλική έκδοση.</p>
 
   <p>Το Nazarly είναι ένα παιχνιδιάρικο κοινωνικό παιχνίδι εμπνευσμένο από τη λαογραφία του ματιού, από την OneHelsing Studio. Προσθέτεις φίλους, τους στέλνεις «μάτι» με ένα άγγιγμα και εκείνοι το λύνουν με ένα σύντομο τελετουργικό. Για να φτάνουν οι φίλοι ο ένας στον άλλον, το Nazarly χρειάζεται διαδικτυακή υπηρεσία. Η πολιτική αυτή εξηγεί τι αποθηκεύουμε, γιατί, για πόσο και τι μπορείς να κάνεις. Υπεύθυνη επεξεργασίας είναι η OneHelsing Studio: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>.</p>
@@ -267,10 +275,14 @@
   <p>Δεν πουλάμε τα προσωπικά σου δεδομένα.</p>
 
   <h2>Πάροχοι και τόπος αποθήκευσης</h2>
-  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting· περιοχή europe-west1, Βέλγιο), <b>Google AdMob</b> (διαφημίσεις), <b>Google Play</b> (πληρωμές, συνδρομές και Play Install Referrer για τον κωδικό πρόσκλησης). Επεξεργάζονται δεδομένα για λογαριασμό μας βάσει των όρων επεξεργασίας της Google, που περιλαμβάνουν τυποποιημένες συμβατικές ρήτρες.</p>
+  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting, Analytics, Crashlytics· περιοχή europe-west1, Βέλγιο), <b>Google AdMob</b> (διαφημίσεις), <b>Google Play</b> (πληρωμές, συνδρομές και Play Install Referrer για τον κωδικό πρόσκλησης). Επεξεργάζονται δεδομένα για λογαριασμό μας βάσει των όρων επεξεργασίας της Google, που περιλαμβάνουν τυποποιημένες συμβατικές ρήτρες.</p>
 
   <h2>Διαφημίσεις</h2>
-  <p>Το Nazarly χρηματοδοτείται από διαφημίσεις Google AdMob. Η Google μπορεί να επεξεργαστεί το διαφημιστικό αναγνωριστικό, στοιχεία συσκευής, κατά προσέγγιση τοποθεσία από τη διεύθυνση IP και αλληλεπιδράσεις: <a href="https://policies.google.com/technologies/partner-sites?hl=el">policies.google.com/technologies/partner-sites</a>. Στον ΕΟΧ, στο ΗΒ και στην Ελβετία ζητάμε συγκατάθεση πριν από εξατομικευμένες διαφημίσεις· μπορείς να την αλλάξεις στις ρυθμίσεις. Καμία διαφήμιση στο πλέγμα φίλων, στα τελετουργικά, στην οθόνη ματιού, στην εγγραφή ή στο κατάστημα. Οι διαφημίσεις με ανταμοιβή είναι πάντα προαιρετικές.</p>
+  <p>Το Nazarly χρηματοδοτείται από διαφημίσεις Google AdMob. Η Google μπορεί να επεξεργαστεί το διαφημιστικό αναγνωριστικό, στοιχεία συσκευής, κατά προσέγγιση τοποθεσία από τη διεύθυνση IP και αλληλεπιδράσεις: <a href="https://policies.google.com/technologies/partner-sites?hl=el">policies.google.com/technologies/partner-sites</a>. Στον ΕΟΧ, στο ΗΒ και στην Ελβετία ζητάμε συγκατάθεση πριν από εξατομικευμένες διαφημίσεις· μπορείς να την αλλάξεις στις ρυθμίσεις. Ένα μικρό banner εμφανίζεται στις περισσότερες οθόνες, και στο πλέγμα φίλων (κάτω, με κενό) και στα τελετουργικά (πάνω), ποτέ κάτω από το σημείο που αγγίζεις ή σέρνεις. Διαφημίσεις πλήρους οθόνης δεν εμφανίζονται ποτέ κατά τη διάρκεια τελετουργικού ή εγγραφής· μόνο περιστασιακά όταν επιστρέφεις από το αποτέλεσμα. Το Eye Mode και η επιλογή χωρίς διαφημίσεις τις αφαιρούν. Οι διαφημίσεις με ανταμοιβή είναι πάντα προαιρετικές.</p>
+
+  <h2>Στατιστικά χρήσης και αναφορές σφαλμάτων</h2>
+  <p>Για να καταλαβαίνουμε ποιες λειτουργίες χρησιμοποιούνται και να διορθώνουμε σφάλματα, η εφαρμογή χρησιμοποιεί <b>Google Firebase Analytics</b> και <b>Firebase Crashlytics</b>. Στο Analytics πηγαίνουν συμβάντα όπως «στάλθηκε μάτι», «λύθηκε με το τελετουργικό Χ», «αποκαλύφθηκε αποστολέας (με διαφήμιση, πίστωση ή Eye Mode)», «κοινοποιήθηκε πρόσκληση», «προστέθηκε φίλος», «ολοκληρώθηκε αγορά (προϊόν)» και «φορτώθηκε banner», μαζί με στοιχεία συσκευής και εφαρμογής, ένα τυχαίο αναγνωριστικό εγκατάστασης και, στο Android όπου επιτρέπεται, το διαφημιστικό αναγνωριστικό. Όνομα χρήστη, εμφανιζόμενο όνομα, ονόματα φίλων, αναγνωριστικό λογαριασμού, κωδικός πρόσκλησης και κομπλιμέντα δεν στέλνονται ποτέ και τα στατιστικά δεν συνδέονται με τον λογαριασμό σου. Το Crashlytics λαμβάνει αναφορές σφαλμάτων (στοίβα, μοντέλο συσκευής, έκδοση λειτουργικού και εφαρμογής, τυχαίο αναγνωριστικό) μόνο από την έκδοση διανομής.</p>
+  <p>Η συλλογή ξεκινά απενεργοποιημένη και ενεργοποιείται μόνο όταν είναι γνωστή η επιλογή συγκατάθεσής σου· στον ΕΟΧ, στο ΗΒ και στην Ελβετία ακολουθεί αυτή την επιλογή (χωρίς συγκατάθεση, τα δεδομένα στέλνονται χωρίς αναγνωριστικά). Νομική βάση: έννομο συμφέρον για τη λειτουργία και βελτίωση της εφαρμογής (άρθρο 6(1)(στ) ΓΚΠΔ) και, όπου απαιτείται, συγκατάθεση. Τα στατιστικά τηρούνται έως 14 μήνες, οι αναφορές σφαλμάτων 90 ημέρες. Στο iPhone δεν συλλέγεται διαφημιστικό αναγνωριστικό.</p>
 
   <h2>Αγορές εντός εφαρμογής</h2>
   <p>Το Eye Mode (συνδρομή με αυτόματη ανανέωση), οι πιστώσεις, οι ασπίδες, τα σχέδια και η επιλογή χωρίς διαφημίσεις πωλούνται μέσω Google Play ή App Store. Δεν βλέπουμε ποτέ στοιχεία πληρωμής. Ο διακομιστής μας επαληθεύει κάθε αγορά με το κατάστημα πριν την προσθέσει. Μπορείς να ακυρώσεις τη συνδρομή οποτεδήποτε από τον λογαριασμό του καταστήματος.</p>
@@ -296,7 +308,7 @@
 <!-- ============================== ITALIANO ============================== -->
 <section id="it" lang="it">
   <h1>Informativa sulla privacy</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · Ultimo aggiornamento: 11 ottobre 2026</p>
+  <p class="meta">Nazarly · OneHelsing Studio · Ultimo aggiornamento: 30 ottobre 2026</p>
   <p class="note">Traduzione fornita per comodità; in caso di differenze prevale la versione inglese.</p>
 
   <p>Nazarly è un gioco social scherzoso ispirato al folklore del malocchio, sviluppato da OneHelsing Studio. Aggiungi amici, mandi loro il “malocchio” con un tocco e loro lo tolgono con un breve rituale. Perché gli amici possano raggiungersi, Nazarly usa un servizio online. Questa informativa spiega cosa conserviamo, perché, per quanto tempo e cosa puoi fare. Titolare del trattamento è OneHelsing Studio: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>.</p>
@@ -328,10 +340,14 @@
   <p>Non vendiamo i tuoi dati personali.</p>
 
   <h2>Fornitori e luogo di conservazione</h2>
-  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting; regione europe-west1, Belgio), <b>Google AdMob</b> (pubblicità), <b>Google Play</b> (pagamenti, abbonamenti e Play Install Referrer per il codice invito). Trattano i dati per nostro conto secondo i termini di trattamento di Google, che includono le clausole contrattuali standard.</p>
+  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting, Analytics, Crashlytics; regione europe-west1, Belgio), <b>Google AdMob</b> (pubblicità), <b>Google Play</b> (pagamenti, abbonamenti e Play Install Referrer per il codice invito). Trattano i dati per nostro conto secondo i termini di trattamento di Google, che includono le clausole contrattuali standard.</p>
 
   <h2>Pubblicità</h2>
-  <p>Nazarly è finanziato da annunci Google AdMob. Google può trattare l'ID pubblicitario, dati del dispositivo, una posizione approssimativa ricavata dall'IP e le interazioni: <a href="https://policies.google.com/technologies/partner-sites?hl=it">policies.google.com/technologies/partner-sites</a>. In SEE, Regno Unito e Svizzera chiediamo il consenso prima degli annunci personalizzati; puoi cambiarlo nelle impostazioni. Nessun annuncio nella griglia degli amici, nei rituali, nella schermata del malocchio, nella registrazione o nel negozio. Gli annunci con premio sono sempre facoltativi.</p>
+  <p>Nazarly è finanziato da annunci Google AdMob. Google può trattare l'ID pubblicitario, dati del dispositivo, una posizione approssimativa ricavata dall'IP e le interazioni: <a href="https://policies.google.com/technologies/partner-sites?hl=it">policies.google.com/technologies/partner-sites</a>. In SEE, Regno Unito e Svizzera chiediamo il consenso prima degli annunci personalizzati; puoi cambiarlo nelle impostazioni. Un piccolo banner compare nella maggior parte delle schermate, anche nella griglia degli amici (in basso, con uno spazio) e nei rituali (in alto), mai sotto la zona che tocchi o trascini. Gli annunci a schermo intero non compaiono mai durante un rituale o la registrazione, solo di tanto in tanto al ritorno dal risultato. Eye Mode e l'opzione senza pubblicità li tolgono. Gli annunci con premio sono sempre facoltativi.</p>
+
+  <h2>Statistiche e rapporti sugli arresti anomali</h2>
+  <p>Per capire quali funzioni vengono usate e correggere gli arresti anomali, l'app usa <b>Google Firebase Analytics</b> e <b>Firebase Crashlytics</b>. Ad Analytics arrivano eventi come «malocchio inviato», «malocchio tolto con il rituale X», «mittente svelato (con annuncio, credito o Eye Mode)», «invito condiviso», «amico aggiunto», «acquisto completato (prodotto)» e «banner caricato», insieme a dati del dispositivo e dell'app, un ID casuale dell'installazione e, su Android se consentito, l'ID pubblicitario. Nome utente, nome visualizzato, nomi degli amici, ID dell'account, codice di invito e complimenti non vengono mai inviati e le statistiche non sono collegate al tuo account. Crashlytics riceve rapporti di errore (traccia, modello del dispositivo, versione del sistema e dell'app, ID casuale) solo dalla versione pubblicata.</p>
+  <p>La raccolta parte disattivata e si attiva solo quando la tua scelta sul consenso è nota; in SEE, Regno Unito e Svizzera segue quella scelta (senza consenso, i dati vengono inviati senza identificatori). Base giuridica: legittimo interesse a far funzionare e migliorare l'app (art. 6(1)(f) GDPR) e, dove richiesto, il consenso. Le statistiche si conservano fino a 14 mesi, i rapporti sugli errori 90 giorni. Su iPhone non si raccoglie l'ID pubblicitario.</p>
 
   <h2>Acquisti in-app</h2>
   <p>Eye Mode (abbonamento a rinnovo automatico), crediti, scudi, design e l'opzione senza pubblicità sono venduti tramite Google Play o App Store. Non vediamo mai i dati di pagamento. Il nostro server verifica ogni acquisto con lo store prima di accreditarlo. Puoi annullare l'abbonamento in qualsiasi momento dal tuo account dello store.</p>
@@ -357,7 +373,7 @@
 <!-- ============================== ESPAÑOL ============================== -->
 <section id="es" lang="es">
   <h1>Política de privacidad</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · Última actualización: 11 de octubre de 2026</p>
+  <p class="meta">Nazarly · OneHelsing Studio · Última actualización: 30 de octubre de 2026</p>
   <p class="note">Traducción ofrecida por comodidad; en caso de diferencia prevalece la versión en inglés.</p>
 
   <p>Nazarly es un juego social y divertido inspirado en el folclore del mal de ojo, desarrollado por OneHelsing Studio. Agregas amigos, les echas el “ojo” con un toque y ellos lo quitan con un breve ritual. Para que los amigos puedan encontrarse, Nazarly usa un servicio en línea. Esta política explica qué guardamos, por qué, durante cuánto tiempo y qué puedes hacer. El responsable del tratamiento es OneHelsing Studio: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>.</p>
@@ -389,10 +405,14 @@
   <p>No vendemos tus datos personales.</p>
 
   <h2>Proveedores y lugar de almacenamiento</h2>
-  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting; región europe-west1, Bélgica), <b>Google AdMob</b> (anuncios), <b>Google Play</b> (pagos, suscripciones y Play Install Referrer para el código de invitación). Tratan los datos por nuestra cuenta según los términos de tratamiento de Google, que incluyen cláusulas contractuales tipo.</p>
+  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting, Analytics, Crashlytics; región europe-west1, Bélgica), <b>Google AdMob</b> (anuncios), <b>Google Play</b> (pagos, suscripciones y Play Install Referrer para el código de invitación). Tratan los datos por nuestra cuenta según los términos de tratamiento de Google, que incluyen cláusulas contractuales tipo.</p>
 
   <h2>Publicidad</h2>
-  <p>Nazarly se financia con anuncios de Google AdMob. Google puede tratar tu ID de publicidad, datos del dispositivo, una ubicación aproximada derivada de la IP y tus interacciones: <a href="https://policies.google.com/technologies/partner-sites?hl=es">policies.google.com/technologies/partner-sites</a>. En el EEE, el Reino Unido y Suiza pedimos tu consentimiento antes de mostrar anuncios personalizados; puedes cambiarlo en los ajustes. No hay anuncios en la cuadrícula de amigos, en los rituales, en la pantalla del ojo, en el registro ni en la tienda. Los anuncios con recompensa siempre son opcionales.</p>
+  <p>Nazarly se financia con anuncios de Google AdMob. Google puede tratar tu ID de publicidad, datos del dispositivo, una ubicación aproximada derivada de la IP y tus interacciones: <a href="https://policies.google.com/technologies/partner-sites?hl=es">policies.google.com/technologies/partner-sites</a>. En el EEE, el Reino Unido y Suiza pedimos tu consentimiento antes de mostrar anuncios personalizados; puedes cambiarlo en los ajustes. Un pequeño banner aparece en la mayoría de las pantallas, también en la cuadrícula de amigos (abajo, con un espacio) y en los rituales (arriba), nunca bajo la zona que tocas o arrastras. Los anuncios a pantalla completa nunca aparecen durante un ritual ni en el registro, solo de vez en cuando al volver del resultado. Eye Mode y la opción sin anuncios los quitan. Los anuncios con recompensa siempre son opcionales.</p>
+
+  <h2>Estadísticas e informes de fallos</h2>
+  <p>Para saber qué funciones se usan y corregir fallos, la app usa <b>Google Firebase Analytics</b> y <b>Firebase Crashlytics</b>. A Analytics llegan eventos como «mal de ojo enviado», «mal de ojo quitado con el ritual X», «remitente revelado (con anuncio, crédito o Eye Mode)», «invitación compartida», «amigo añadido», «compra completada (producto)» y «banner cargado», junto con datos del dispositivo y de la app, un ID aleatorio de la instalación y, en Android si se permite, el ID de publicidad. Tu nombre de usuario, tu nombre visible, los nombres de tus amigos, el ID de la cuenta, el código de invitación y los cumplidos nunca se envían, y las estadísticas no se vinculan a tu cuenta. Crashlytics recibe informes de fallos (traza, modelo del dispositivo, versión del sistema y de la app, ID aleatorio) solo de la versión publicada.</p>
+  <p>La recopilación empieza desactivada y se activa solo cuando se conoce tu elección de consentimiento; en el EEE, el Reino Unido y Suiza sigue esa elección (sin consentimiento, los datos se envían sin identificadores). Base jurídica: interés legítimo en mantener y mejorar la app (art. 6(1)(f) RGPD) y, cuando se requiera, tu consentimiento. Las estadísticas se guardan hasta 14 meses y los informes de fallos 90 días. En iPhone no se recoge el ID de publicidad.</p>
 
   <h2>Compras dentro de la app</h2>
   <p>Eye Mode (suscripción con renovación automática), créditos, escudos, diseños y la opción sin anuncios se venden a través de Google Play o App Store. Nunca vemos tus datos de pago. Nuestro servidor verifica cada compra con la tienda antes de añadirla. Puedes cancelar la suscripción cuando quieras desde tu cuenta de la tienda.</p>
@@ -418,7 +438,7 @@
 <!-- ============================== PORTUGUÊS ============================== -->
 <section id="pt" lang="pt-BR">
   <h1>Política de Privacidade</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · Última atualização: 11 de outubro de 2026</p>
+  <p class="meta">Nazarly · OneHelsing Studio · Última atualização: 30 de outubro de 2026</p>
   <p class="note">Tradução oferecida por conveniência; em caso de divergência, vale a versão em inglês.</p>
 
   <p>Nazarly é um jogo social divertido inspirado no folclore do olho gordo, desenvolvido pela OneHelsing Studio. Você adiciona amigos, bota olho gordo neles com um toque e eles quebram com um ritual rápido. Para que os amigos se encontrem, o Nazarly usa um serviço online. Esta política explica o que guardamos, por quê, por quanto tempo e o que você pode fazer. O controlador dos dados é a OneHelsing Studio: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>.</p>
@@ -450,10 +470,14 @@
   <p>Não vendemos seus dados pessoais.</p>
 
   <h2>Prestadores de serviço e local de armazenamento</h2>
-  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting; região europe-west1, Bélgica), <b>Google AdMob</b> (anúncios), <b>Google Play</b> (pagamentos, assinaturas e Play Install Referrer para o código de convite). Eles tratam dados em nosso nome segundo os termos de processamento de dados do Google, que incluem cláusulas contratuais padrão.</p>
+  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting, Analytics, Crashlytics; região europe-west1, Bélgica), <b>Google AdMob</b> (anúncios), <b>Google Play</b> (pagamentos, assinaturas e Play Install Referrer para o código de convite). Eles tratam dados em nosso nome segundo os termos de processamento de dados do Google, que incluem cláusulas contratuais padrão.</p>
 
   <h2>Publicidade</h2>
-  <p>O Nazarly é financiado por anúncios do Google AdMob. O Google pode tratar seu ID de publicidade, dados do aparelho, localização aproximada derivada do IP e suas interações: <a href="https://policies.google.com/technologies/partner-sites?hl=pt-BR">policies.google.com/technologies/partner-sites</a>. No EEE, Reino Unido e Suíça pedimos consentimento antes de anúncios personalizados; você pode mudar nos ajustes. Não há anúncios na grade de amigos, nos rituais, na tela do olho gordo, no cadastro nem na loja. Anúncios premiados são sempre opcionais.</p>
+  <p>O Nazarly é financiado por anúncios do Google AdMob. O Google pode tratar seu ID de publicidade, dados do aparelho, localização aproximada derivada do IP e suas interações: <a href="https://policies.google.com/technologies/partner-sites?hl=pt-BR">policies.google.com/technologies/partner-sites</a>. No EEE, Reino Unido e Suíça pedimos consentimento antes de anúncios personalizados; você pode mudar nos ajustes. Um pequeno banner aparece na maioria das telas, inclusive na grade de amigos (embaixo, com um espaço) e nos rituais (em cima), nunca sob a área que você toca ou arrasta. Anúncios em tela cheia nunca aparecem durante um ritual ou no cadastro, só de vez em quando ao voltar do resultado. O Eye Mode e a opção sem anúncios os removem. Anúncios premiados são sempre opcionais.</p>
+
+  <h2>Estatísticas e relatórios de falhas</h2>
+  <p>Para entender quais recursos são usados e corrigir falhas, o app usa <b>Google Firebase Analytics</b> e <b>Firebase Crashlytics</b>. O Analytics recebe eventos como «olho gordo enviado», «olho gordo quebrado com o ritual X», «remetente revelado (com anúncio, crédito ou Eye Mode)», «convite compartilhado», «amigo adicionado», «compra concluída (produto)» e «banner carregado», junto com dados do aparelho e do app, um ID aleatório da instalação e, no Android quando permitido, o ID de publicidade. Seu nome de usuário, nome de exibição, nomes dos amigos, ID da conta, código de convite e elogios nunca são enviados, e as estatísticas não são vinculadas à sua conta. O Crashlytics recebe relatórios de falhas (rastreamento, modelo do aparelho, versão do sistema e do app, ID aleatório) apenas da versão publicada.</p>
+  <p>A coleta começa desligada e só é ativada quando sua escolha de consentimento é conhecida; no EEE, Reino Unido e Suíça segue essa escolha (sem consentimento, os dados vão sem identificadores). Base legal: interesse legítimo em manter e melhorar o app (art. 6(1)(f) do GDPR; art. 7, IX da LGPD) e, quando exigido, seu consentimento. As estatísticas ficam guardadas por até 14 meses e os relatórios de falhas por 90 dias. No iPhone, o ID de publicidade não é coletado.</p>
 
   <h2>Compras no app</h2>
   <p>Eye Mode (assinatura com renovação automática), créditos, escudos, designs e a opção sem anúncios são vendidos pelo Google Play ou App Store. Nunca vemos seus dados de pagamento. Nosso servidor confirma cada compra com a loja antes de liberar o item. Você pode cancelar a assinatura a qualquer momento na sua conta da loja.</p>
@@ -479,7 +503,7 @@
 <!-- ============================== РУССКИЙ ============================== -->
 <section id="ru" lang="ru">
   <h1>Политика конфиденциальности</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · Последнее обновление: 11 октября 2026 г.</p>
+  <p class="meta">Nazarly · OneHelsing Studio · Последнее обновление: 30 октября 2026 г.</p>
   <p class="note">Перевод приводится для удобства; при расхождениях действует английская версия.</p>
 
   <p>Nazarly — шуточная социальная игра по мотивам фольклора о сглазе от OneHelsing Studio. Добавляй друзей, одним касанием отправляй им «сглаз», а они снимают его коротким ритуалом. Чтобы друзья могли находить друг друга, Nazarly использует онлайн-сервис. Здесь объясняется, что мы храним, зачем, как долго и что ты можешь сделать. Оператор данных — OneHelsing Studio: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>.</p>
@@ -511,10 +535,14 @@
   <p>Мы не продаём твои персональные данные.</p>
 
   <h2>Поставщики услуг и место хранения</h2>
-  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting; регион europe-west1, Бельгия), <b>Google AdMob</b> (реклама), <b>Google Play</b> (платежи, подписки и Play Install Referrer для кода приглашения). Они обрабатывают данные от нашего имени по условиям обработки данных Google, включающим стандартные договорные положения. Данные хранятся в ЕС.</p>
+  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting, Analytics, Crashlytics; регион europe-west1, Бельгия), <b>Google AdMob</b> (реклама), <b>Google Play</b> (платежи, подписки и Play Install Referrer для кода приглашения). Они обрабатывают данные от нашего имени по условиям обработки данных Google, включающим стандартные договорные положения. Данные хранятся в ЕС.</p>
 
   <h2>Реклама</h2>
-  <p>Nazarly живёт за счёт рекламы Google AdMob. Google может обрабатывать рекламный идентификатор, данные устройства, приблизительное местоположение по IP и взаимодействия с рекламой: <a href="https://policies.google.com/technologies/partner-sites?hl=ru">policies.google.com/technologies/partner-sites</a>. В ЕЭЗ, Великобритании и Швейцарии мы спрашиваем согласие перед персонализированной рекламой; его можно изменить в настройках. На сетке друзей, во время ритуалов, на экране сглаза, при регистрации и в магазине рекламы нет. Реклама с наградой всегда добровольна.</p>
+  <p>Nazarly живёт за счёт рекламы Google AdMob. Google может обрабатывать рекламный идентификатор, данные устройства, приблизительное местоположение по IP и взаимодействия с рекламой: <a href="https://policies.google.com/technologies/partner-sites?hl=ru">policies.google.com/technologies/partner-sites</a>. В ЕЭЗ, Великобритании и Швейцарии мы спрашиваем согласие перед персонализированной рекламой; его можно изменить в настройках. Небольшой баннер показывается на большинстве экранов, в том числе на сетке друзей (внизу, с отступом) и в ритуалах (вверху), но никогда там, где ты касаешься или ведёшь пальцем. Полноэкранная реклама никогда не появляется во время ритуала или регистрации — лишь иногда при возврате с экрана результата. Eye Mode и отключение рекламы убирают её. Реклама с наградой всегда добровольна.</p>
+
+  <h2>Статистика и отчёты о сбоях</h2>
+  <p>Чтобы понимать, какие функции используются, и исправлять сбои, приложение использует <b>Google Firebase Analytics</b> и <b>Firebase Crashlytics</b>. В Analytics попадают события вроде «отправлен сглаз», «сглаз снят ритуалом X», «отправитель раскрыт (за рекламу, кредит или в Eye Mode)», «приглашение отправлено», «друг добавлен», «покупка завершена (товар)» и «баннер загружен», а также данные устройства и приложения, случайный идентификатор установки и на Android, если разрешено, рекламный идентификатор. Имя пользователя, отображаемое имя, имена друзей, идентификатор аккаунта, код приглашения и комплименты никогда не отправляются, а статистика не связывается с аккаунтом. Crashlytics получает отчёты о сбоях (стек, модель устройства, версии системы и приложения, случайный идентификатор) только из опубликованной версии.</p>
+  <p>Сбор сначала выключен и включается, только когда известен твой выбор в окне согласия; в ЕЭЗ, Великобритании и Швейцарии он следует этому выбору (без согласия данные отправляются без идентификаторов). Правовое основание: законный интерес в работе и улучшении приложения (ст. 6(1)(f) GDPR) и, где нужно, согласие. Статистика хранится до 14 месяцев, отчёты о сбоях — 90 дней. На iPhone рекламный идентификатор не собирается.</p>
 
   <h2>Покупки в приложении</h2>
   <p>Eye Mode (автоматически продлеваемая подписка), кредиты, щиты, дизайны и отключение рекламы продаются через Google Play или App Store. Мы никогда не видим платёжные данные. Наш сервер проверяет каждую покупку в магазине и только потом начисляет её. Подписку можно отменить в любой момент в аккаунте магазина.</p>
@@ -540,7 +568,7 @@
 <!-- ============================== العربية ============================== -->
 <section id="ar" lang="ar" dir="rtl">
   <h1>سياسة الخصوصية</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · آخر تحديث: 11 أكتوبر 2026</p>
+  <p class="meta">Nazarly · OneHelsing Studio · آخر تحديث: 30 أكتوبر 2026</p>
   <p class="note">هذه الترجمة للتيسير؛ وعند الاختلاف تُعتمد النسخة الإنجليزية.</p>
 
   <p>‏Nazarly لعبة اجتماعية مرحة مستوحاة من تراث العين والحسد، من تطوير OneHelsing Studio. تضيف أصدقاءك، وترسل إليهم «عينًا» بلمسة واحدة، فيفكّونها بطقس قصير. ولكي يصل الأصدقاء بعضهم إلى بعض يستخدم Nazarly خدمة عبر الإنترنت. توضح هذه السياسة ما نحفظه ولماذا وإلى متى وما الذي يمكنك فعله. المسؤول عن البيانات هو OneHelsing Studio: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>.</p>
@@ -572,10 +600,14 @@
   <p>لا نبيع بياناتك الشخصية.</p>
 
   <h2>مقدمو الخدمات ومكان التخزين</h2>
-  <p><b>Google Firebase</b> (Authentication وFirestore وCloud Functions وCloud Messaging وHosting؛ منطقة europe-west1 في بلجيكا)، و<b>Google AdMob</b> (الإعلانات)، و<b>Google Play</b> (المدفوعات والاشتراكات وPlay Install Referrer لرمز الدعوة). يعالجون البيانات نيابة عنا وفق شروط معالجة البيانات لدى Google التي تتضمن البنود التعاقدية القياسية.</p>
+  <p><b>Google Firebase</b> (Authentication وFirestore وCloud Functions وCloud Messaging وHosting, Analytics, Crashlytics؛ منطقة europe-west1 في بلجيكا)، و<b>Google AdMob</b> (الإعلانات)، و<b>Google Play</b> (المدفوعات والاشتراكات وPlay Install Referrer لرمز الدعوة). يعالجون البيانات نيابة عنا وفق شروط معالجة البيانات لدى Google التي تتضمن البنود التعاقدية القياسية.</p>
 
   <h2>الإعلانات</h2>
-  <p>يُموَّل Nazarly بإعلانات Google AdMob. قد تعالج Google معرّف الإعلانات وبيانات الجهاز وموقعًا تقريبيًا من عنوان IP وتفاعلاتك: <a href="https://policies.google.com/technologies/partner-sites?hl=ar">policies.google.com/technologies/partner-sites</a>. في المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا نطلب موافقتك قبل الإعلانات المخصصة، ويمكنك تغييرها من الإعدادات. لا إعلانات في شبكة الأصدقاء ولا أثناء الطقوس ولا في شاشة العين ولا عند التسجيل ولا في المتجر. إعلانات المكافأة اختيارية دائمًا.</p>
+  <p>يُموَّل Nazarly بإعلانات Google AdMob. قد تعالج Google معرّف الإعلانات وبيانات الجهاز وموقعًا تقريبيًا من عنوان IP وتفاعلاتك: <a href="https://policies.google.com/technologies/partner-sites?hl=ar">policies.google.com/technologies/partner-sites</a>. في المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا نطلب موافقتك قبل الإعلانات المخصصة، ويمكنك تغييرها من الإعدادات. يظهر شريط إعلاني صغير في معظم الشاشات، ومنها شبكة الأصدقاء (في الأسفل مع فاصل) والطقوس (في الأعلى)، ولا يكون أبدًا تحت المكان الذي تلمسه أو تسحبه. لا تظهر الإعلانات بملء الشاشة أبدًا أثناء الطقس أو التسجيل، بل أحيانًا فقط عند العودة من شاشة النتيجة. ويزيلها Eye Mode وخيار إزالة الإعلانات. إعلانات المكافأة اختيارية دائمًا.</p>
+
+  <h2>الإحصاءات وتقارير الأعطال</h2>
+  <p>لمعرفة الميزات المستخدمة وإصلاح الأعطال، يستخدم التطبيق <b>Google Firebase Analytics</b> و<b>Firebase Crashlytics</b>. تصل إلى Analytics أحداث مثل «أُرسلت عين» و«فُكّت العين بالطقس X» و«كُشف المرسل (بإعلان أو رصيد أو Eye Mode)» و«شُورِكت دعوة» و«أُضيف صديق» و«اكتمل شراء (المنتج)» و«حُمّل شريط إعلاني»، مع بيانات الجهاز والتطبيق ومعرّف عشوائي للتثبيت، ومعرّف الإعلانات على Android إن سُمح به. لا يُرسل أبدًا اسم المستخدم أو الاسم الظاهر أو أسماء الأصدقاء أو معرّف الحساب أو رمز الدعوة أو المجاملات، ولا تُربط الإحصاءات بحسابك. يتلقى Crashlytics تقارير الأعطال (تتبّع الخطأ وطراز الجهاز وإصدار النظام والتطبيق ومعرّفًا عشوائيًا) من النسخة المنشورة فقط.</p>
+  <p>يبدأ الجمع متوقفًا ولا يعمل إلا بعد معرفة اختيارك في نموذج الموافقة؛ وفي المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا يتبع هذا الاختيار (من دون موافقة تُرسل البيانات بلا معرّفات). الأساس القانوني: مصلحتنا المشروعة في تشغيل التطبيق وتحسينه (المادة 6(1)(و) من اللائحة العامة لحماية البيانات) وموافقتك حيث يلزم. تُحفظ الإحصاءات حتى 14 شهرًا وتقارير الأعطال 90 يومًا. على iPhone لا يُجمع معرّف الإعلانات.</p>
 
   <h2>الشراء داخل التطبيق</h2>
   <p>تُباع Eye Mode (اشتراك يتجدد تلقائيًا) والأرصدة والدروع والتصاميم وخيار إزالة الإعلانات عبر Google Play أو App Store. لا نرى بيانات الدفع أبدًا. يتحقق خادمنا من كل عملية شراء مع المتجر قبل إضافتها. يمكنك إلغاء الاشتراك في أي وقت من حسابك في المتجر.</p>
@@ -601,7 +633,7 @@
 <!-- ============================== فارسی ============================== -->
 <section id="fa" lang="fa" dir="rtl">
   <h1>سیاست حریم خصوصی</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · آخرین به‌روزرسانی: ۱۱ اکتبر ۲۰۲۶</p>
+  <p class="meta">Nazarly · OneHelsing Studio · آخرین به‌روزرسانی: ۳۰ اکتبر ۲۰۲۶</p>
   <p class="note">این ترجمه برای سهولت است؛ در صورت اختلاف، نسخهٔ انگلیسی معتبر است.</p>
 
   <p>‏Nazarly یک بازی اجتماعی و شوخ است که از فرهنگ چشم‌زخم الهام گرفته و OneHelsing Studio آن را ساخته است. دوستانت را اضافه می‌کنی، با یک لمس به آن‌ها چشم می‌زنی و آن‌ها با یک آیین کوتاه آن را باطل می‌کنند. برای اینکه دوستان به هم برسند، Nazarly از یک سرویس آنلاین استفاده می‌کند. این سیاست توضیح می‌دهد چه چیزی را، چرا و تا کی نگه می‌داریم و تو چه می‌توانی بکنی. مسئول داده‌ها OneHelsing Studio است: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>.</p>
@@ -633,10 +665,14 @@
   <p>داده‌های شخصی تو را نمی‌فروشیم.</p>
 
   <h2>ارائه‌دهندگان خدمات و محل نگهداری</h2>
-  <p><b>Google Firebase</b> (Authentication، Firestore، Cloud Functions، Cloud Messaging، Hosting؛ منطقهٔ europe-west1 در بلژیک)، <b>Google AdMob</b> (تبلیغات)، <b>Google Play</b> (پرداخت‌ها، اشتراک‌ها و Play Install Referrer برای کد دعوت). آن‌ها طبق شرایط پردازش دادهٔ Google، که شامل بندهای قراردادی استاندارد است، از طرف ما داده‌ها را پردازش می‌کنند.</p>
+  <p><b>Google Firebase</b> (Authentication، Firestore، Cloud Functions، Cloud Messaging، Hosting, Analytics, Crashlytics؛ منطقهٔ europe-west1 در بلژیک)، <b>Google AdMob</b> (تبلیغات)، <b>Google Play</b> (پرداخت‌ها، اشتراک‌ها و Play Install Referrer برای کد دعوت). آن‌ها طبق شرایط پردازش دادهٔ Google، که شامل بندهای قراردادی استاندارد است، از طرف ما داده‌ها را پردازش می‌کنند.</p>
 
   <h2>تبلیغات</h2>
-  <p>‏Nazarly با تبلیغات Google AdMob تأمین می‌شود. Google ممکن است شناسهٔ تبلیغاتی، اطلاعات دستگاه، مکان تقریبی از روی IP و تعامل‌های تو را پردازش کند: <a href="https://policies.google.com/technologies/partner-sites?hl=fa">policies.google.com/technologies/partner-sites</a>. در منطقهٔ اقتصادی اروپا، بریتانیا و سوئیس پیش از تبلیغات شخصی‌سازی‌شده رضایتت را می‌پرسیم و می‌توانی آن را در تنظیمات تغییر دهی. در شبکهٔ دوستان، هنگام آیین‌ها، صفحهٔ چشم‌زخم، ثبت‌نام و فروشگاه تبلیغی نیست. تبلیغات جایزه‌دار همیشه اختیاری‌اند.</p>
+  <p>‏Nazarly با تبلیغات Google AdMob تأمین می‌شود. Google ممکن است شناسهٔ تبلیغاتی، اطلاعات دستگاه، مکان تقریبی از روی IP و تعامل‌های تو را پردازش کند: <a href="https://policies.google.com/technologies/partner-sites?hl=fa">policies.google.com/technologies/partner-sites</a>. در منطقهٔ اقتصادی اروپا، بریتانیا و سوئیس پیش از تبلیغات شخصی‌سازی‌شده رضایتت را می‌پرسیم و می‌توانی آن را در تنظیمات تغییر دهی. یک بنر تبلیغاتی کوچک در بیشتر صفحه‌ها دیده می‌شود، از جمله شبکهٔ دوستان (پایین، با فاصله) و آیین‌ها (بالا)، ولی هیچ‌وقت زیر جایی که لمس می‌کنی یا می‌کشی نیست. تبلیغ تمام‌صفحه هیچ‌وقت وسط آیین یا ثبت‌نام نمی‌آید؛ فقط گاهی هنگام برگشتن از صفحهٔ نتیجه. ‏Eye Mode و گزینهٔ حذف تبلیغ آن‌ها را برمی‌دارند. تبلیغات جایزه‌دار همیشه اختیاری‌اند.</p>
+
+  <h2>آمار استفاده و گزارش خرابی</h2>
+  <p>برای فهمیدن این‌که کدام ویژگی‌ها استفاده می‌شوند و رفع خرابی‌ها، برنامه از <b>Google Firebase Analytics</b> و <b>Firebase Crashlytics</b> استفاده می‌کند. رویدادهایی مثل «چشم‌زخم فرستاده شد»، «چشم‌زخم با آیین X دور شد»، «فرستنده آشکار شد (با تبلیغ، اعتبار یا Eye Mode)»، «دعوت هم‌رسانی شد»، «دوست اضافه شد»، «خرید کامل شد (محصول)» و «بنر بارگذاری شد» همراه با اطلاعات دستگاه و برنامه، یک شناسهٔ تصادفی نصب و در Android در صورت اجازه، شناسهٔ تبلیغاتی به Analytics می‌رود. نام کاربری، نام نمایشی، نام دوستان، شناسهٔ حساب، کد دعوت و تعریف‌ها هرگز فرستاده نمی‌شوند و آمار به حساب تو وصل نمی‌شود. ‏Crashlytics گزارش خرابی (ردِ خطا، مدل دستگاه، نسخهٔ سیستم و برنامه، شناسهٔ تصادفی) را فقط از نسخهٔ منتشرشده می‌گیرد.</p>
+  <p>جمع‌آوری در آغاز خاموش است و فقط وقتی انتخابت در فرم رضایت معلوم شد روشن می‌شود؛ در منطقهٔ اقتصادی اروپا، بریتانیا و سوئیس از همان انتخاب پیروی می‌کند (بدون رضایت، داده‌ها بدون شناسه فرستاده می‌شوند). مبنای قانونی: منفعت مشروع ما در کارکرد و بهبود برنامه (مادهٔ ۶(۱)(f) GDPR) و در صورت لزوم رضایت تو. آمار تا ۱۴ ماه و گزارش‌های خرابی ۹۰ روز نگه داشته می‌شوند. در iPhone شناسهٔ تبلیغاتی جمع نمی‌شود.</p>
 
   <h2>خرید درون‌برنامه‌ای</h2>
   <p>‏Eye Mode (اشتراک با تمدید خودکار)، اعتبارها، سپرها، طرح‌ها و گزینهٔ بدون تبلیغ از طریق Google Play یا App Store فروخته می‌شوند. ما هرگز اطلاعات پرداخت را نمی‌بینیم. سرور ما هر خرید را با فروشگاه تأیید می‌کند و سپس آن را اضافه می‌کند. می‌توانی هر زمان اشتراک را از حساب فروشگاه لغو کنی.</p>
@@ -662,7 +698,7 @@
 <!-- ============================== עברית ============================== -->
 <section id="he" lang="he" dir="rtl">
   <h1>מדיניות פרטיות</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · עודכן לאחרונה: 11 באוקטובר 2026</p>
+  <p class="meta">Nazarly · OneHelsing Studio · עודכן לאחרונה: 30 באוקטובר 2026</p>
   <p class="note">התרגום נועד לנוחות; במקרה של סתירה הנוסח האנגלי קובע.</p>
 
   <p>‏Nazarly הוא משחק חברתי שובב בהשראת הפולקלור של עין הרע, מבית OneHelsing Studio. מוסיפים חברים, שולחים להם „עין” בנגיעה אחת, והם מבטלים אותה בטקס קצר. כדי שחברים יוכלו להגיע זה לזה, Nazarly משתמש בשירות מקוון. מדיניות זו מסבירה מה נשמר, למה, לכמה זמן ומה אפשר לעשות. בעלת השליטה במידע היא OneHelsing Studio: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>.</p>
@@ -694,10 +730,14 @@
   <p>איננו מוכרים מידע אישי.</p>
 
   <h2>ספקי שירות ומקום האחסון</h2>
-  <p><b>Google Firebase</b> (Authentication‏, Firestore‏, Cloud Functions‏, Cloud Messaging‏, Hosting; אזור europe-west1, בלגיה), <b>Google AdMob</b> (מודעות), <b>Google Play</b> (תשלומים, מינויים ו-Play Install Referrer לקוד ההזמנה). הם מעבדים מידע בשמנו לפי תנאי עיבוד הנתונים של Google, הכוללים סעיפים חוזיים סטנדרטיים.</p>
+  <p><b>Google Firebase</b> (Authentication‏, Firestore‏, Cloud Functions‏, Cloud Messaging‏, Hosting, Analytics, Crashlytics; אזור europe-west1, בלגיה), <b>Google AdMob</b> (מודעות), <b>Google Play</b> (תשלומים, מינויים ו-Play Install Referrer לקוד ההזמנה). הם מעבדים מידע בשמנו לפי תנאי עיבוד הנתונים של Google, הכוללים סעיפים חוזיים סטנדרטיים.</p>
 
   <h2>פרסום</h2>
-  <p>‏Nazarly ממומן ממודעות Google AdMob. ‏Google עשויה לעבד את מזהה הפרסום, נתוני המכשיר, מיקום משוער לפי IP והאינטראקציות עם מודעות: <a href="https://policies.google.com/technologies/partner-sites?hl=iw">policies.google.com/technologies/partner-sites</a>. באזור הכלכלי האירופי, בבריטניה ובשווייץ מתבקשת הסכמה לפני מודעות מותאמות אישית, ואפשר לשנותה בהגדרות. אין מודעות ברשת החברים, בזמן טקסים, במסך העין, בהרשמה ובחנות. מודעות עם פרס תמיד רשות.</p>
+  <p>‏Nazarly ממומן ממודעות Google AdMob. ‏Google עשויה לעבד את מזהה הפרסום, נתוני המכשיר, מיקום משוער לפי IP והאינטראקציות עם מודעות: <a href="https://policies.google.com/technologies/partner-sites?hl=iw">policies.google.com/technologies/partner-sites</a>. באזור הכלכלי האירופי, בבריטניה ובשווייץ מתבקשת הסכמה לפני מודעות מותאמות אישית, ואפשר לשנותה בהגדרות. באנר פרסומי קטן מוצג ברוב המסכים, גם ברשת החברים (למטה, עם רווח) ובטקסים (למעלה), אבל אף פעם לא מתחת לאזור שבו נוגעים או גוררים. מודעות מסך מלא לא מופיעות אף פעם באמצע טקס או בהרשמה, רק מדי פעם בחזרה ממסך התוצאה. ‏Eye Mode והאפשרות ללא פרסומות מסירים אותן. מודעות עם פרס תמיד רשות.</p>
+
+  <h2>סטטיסטיקות ודוחות קריסה</h2>
+  <p>כדי להבין באילו תכונות משתמשים ולתקן קריסות, האפליקציה משתמשת ב-<b>Google Firebase Analytics</b> וב-<b>Firebase Crashlytics</b>. ל-Analytics נשלחים אירועים כמו „נשלחה עין”, „העין נשברה בטקס X”, „השולח נחשף (במודעה, בקרדיט או ב-Eye Mode)”, „הזמנה שותפה”, „נוסף חבר”, „רכישה הושלמה (מוצר)” ו„באנר נטען”, יחד עם נתוני מכשיר ואפליקציה, מזהה אקראי של ההתקנה וב-Android, אם מותר, מזהה הפרסום. שם המשתמש, השם המוצג, שמות החברים, מזהה החשבון, קוד ההזמנה והמחמאות לא נשלחים לעולם, והסטטיסטיקות לא מקושרות לחשבון. ‏Crashlytics מקבל דוחות קריסה (עקבת שגיאה, דגם מכשיר, גרסת מערכת ואפליקציה, מזהה אקראי) רק מהגרסה שפורסמה.</p>
+  <p>האיסוף כבוי בהתחלה ומופעל רק כשהבחירה שלך בטופס ההסכמה ידועה; באזור הכלכלי האירופי, בבריטניה ובשווייץ הוא פועל לפי הבחירה הזו (בלי הסכמה, הנתונים נשלחים בלי מזהים). בסיס חוקי: אינטרס לגיטימי בהפעלת האפליקציה ובשיפורה (סעיף 6(1)(f) ל-GDPR) ובמקרה הצורך הסכמתך. הסטטיסטיקות נשמרות עד 14 חודשים ודוחות הקריסה 90 יום. ב-iPhone לא נאסף מזהה פרסום.</p>
 
   <h2>רכישות באפליקציה</h2>
   <p>‏Eye Mode (מינוי מתחדש אוטומטית), קרדיטים, מגינים, עיצובים והסרת מודעות נמכרים דרך Google Play או App Store. איננו רואים פרטי תשלום. השרת שלנו מאמת כל רכישה מול החנות ורק אז מוסיף אותה. אפשר לבטל את המינוי בכל עת בחשבון החנות.</p>
@@ -723,7 +763,7 @@
 <!-- ============================== हिन्दी ============================== -->
 <section id="hi" lang="hi">
   <h1>गोपनीयता नीति</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · अंतिम अपडेट: 11 अक्टूबर 2026</p>
+  <p class="meta">Nazarly · OneHelsing Studio · अंतिम अपडेट: 30 अक्टूबर 2026</p>
   <p class="note">यह अनुवाद सुविधा के लिए है; किसी अंतर की स्थिति में अंग्रेज़ी संस्करण मान्य होगा।</p>
 
   <p>Nazarly नज़र की लोक-परंपरा से प्रेरित एक मज़ेदार सोशल गेम है, जिसे OneHelsing Studio ने बनाया है। दोस्तों को जोड़ो, एक टैप में उन्हें “नज़र” भेजो, और वे एक छोटे से टोटके से उसे उतारें। दोस्त एक-दूसरे तक पहुँच सकें, इसके लिए Nazarly एक ऑनलाइन सेवा का उपयोग करता है। यह नीति बताती है कि हम क्या, क्यों और कितने समय तक रखते हैं और तुम क्या कर सकते हो। डेटा के लिए ज़िम्मेदार: OneHelsing Studio, <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>।</p>
@@ -755,10 +795,14 @@
   <p>हम तुम्हारा व्यक्तिगत डेटा नहीं बेचते।</p>
 
   <h2>सेवा प्रदाता और भंडारण का स्थान</h2>
-  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting; europe-west1 क्षेत्र, बेल्जियम), <b>Google AdMob</b> (विज्ञापन), <b>Google Play</b> (भुगतान, सदस्यता और आमंत्रण कोड के लिए Play Install Referrer)। ये Google की डेटा प्रोसेसिंग शर्तों के तहत, जिनमें मानक संविदात्मक खंड शामिल हैं, हमारी ओर से डेटा संसाधित करते हैं।</p>
+  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting, Analytics, Crashlytics; europe-west1 क्षेत्र, बेल्जियम), <b>Google AdMob</b> (विज्ञापन), <b>Google Play</b> (भुगतान, सदस्यता और आमंत्रण कोड के लिए Play Install Referrer)। ये Google की डेटा प्रोसेसिंग शर्तों के तहत, जिनमें मानक संविदात्मक खंड शामिल हैं, हमारी ओर से डेटा संसाधित करते हैं।</p>
 
   <h2>विज्ञापन</h2>
-  <p>Nazarly का ख़र्च Google AdMob विज्ञापनों से चलता है। Google तुम्हारी विज्ञापन ID, डिवाइस जानकारी, IP से अनुमानित स्थान और विज्ञापनों से तुम्हारी बातचीत संसाधित कर सकता है: <a href="https://policies.google.com/technologies/partner-sites?hl=hi">policies.google.com/technologies/partner-sites</a>। EEA, ब्रिटेन और स्विट्ज़रलैंड में व्यक्तिगत विज्ञापनों से पहले सहमति ली जाती है; सेटिंग्स में बदल सकते हो। दोस्तों की ग्रिड, टोटकों, नज़र स्क्रीन, साइन-अप और दुकान में कोई विज्ञापन नहीं। इनाम वाले विज्ञापन हमेशा वैकल्पिक हैं।</p>
+  <p>Nazarly का ख़र्च Google AdMob विज्ञापनों से चलता है। Google तुम्हारी विज्ञापन ID, डिवाइस जानकारी, IP से अनुमानित स्थान और विज्ञापनों से तुम्हारी बातचीत संसाधित कर सकता है: <a href="https://policies.google.com/technologies/partner-sites?hl=hi">policies.google.com/technologies/partner-sites</a>। EEA, ब्रिटेन और स्विट्ज़रलैंड में व्यक्तिगत विज्ञापनों से पहले सहमति ली जाती है; सेटिंग्स में बदल सकते हो। ज़्यादातर स्क्रीन पर एक छोटा बैनर विज्ञापन दिखता है, दोस्तों की ग्रिड पर भी (नीचे, थोड़ी जगह छोड़कर) और टोटकों में (ऊपर), पर कभी उस जगह के नीचे नहीं जहाँ तुम छूते या खींचते हो। फ़ुल-स्क्रीन विज्ञापन टोटके या साइन-अप के बीच कभी नहीं आते; बस कभी-कभी नतीजे की स्क्रीन से लौटते समय। Eye Mode और विज्ञापन-मुक्त विकल्प इन्हें हटा देते हैं। इनाम वाले विज्ञापन हमेशा वैकल्पिक हैं।</p>
+
+  <h2>उपयोग के आँकड़े और क्रैश रिपोर्ट</h2>
+  <p>कौन-सी सुविधाएँ इस्तेमाल होती हैं यह समझने और क्रैश ठीक करने के लिए ऐप <b>Google Firebase Analytics</b> और <b>Firebase Crashlytics</b> इस्तेमाल करता है। Analytics को "नज़र भेजी गई", "नज़र टोटके X से उतारी गई", "भेजने वाले का नाम खोला गया (विज्ञापन, क्रेडिट या Eye Mode से)", "आमंत्रण शेयर हुआ", "दोस्त जुड़ा", "ख़रीदारी पूरी हुई (उत्पाद)" और "बैनर लोड हुआ" जैसी घटनाएँ मिलती हैं, साथ में डिवाइस और ऐप की जानकारी, इंस्टॉलेशन की एक रैंडम ID और Android पर अनुमति होने पर विज्ञापन ID। तुम्हारा यूज़रनेम, दिखने वाला नाम, दोस्तों के नाम, खाता ID, आमंत्रण कोड और तारीफ़ें कभी नहीं भेजी जातीं, और आँकड़े तुम्हारे खाते से नहीं जोड़े जाते। Crashlytics को केवल प्रकाशित वर्ज़न से क्रैश रिपोर्ट (त्रुटि का विवरण, डिवाइस मॉडल, सिस्टम और ऐप वर्ज़न, रैंडम ID) मिलती है।</p>
+  <p>संग्रह शुरू में बंद रहता है और सहमति वाला तुम्हारा चुनाव पता चलने के बाद ही चालू होता है; EEA, ब्रिटेन और स्विट्ज़रलैंड में यह उसी चुनाव के हिसाब से चलता है (सहमति न हो तो डेटा बिना पहचानकर्ता के जाता है)। क़ानूनी आधार: ऐप को चलाने और बेहतर बनाने में हमारा वैध हित (GDPR अनुच्छेद 6(1)(f)) और ज़रूरत होने पर तुम्हारी सहमति। आँकड़े अधिकतम 14 महीने और क्रैश रिपोर्ट 90 दिन रखी जाती हैं। iPhone पर विज्ञापन ID नहीं ली जाती।</p>
 
   <h2>ऐप में ख़रीदारी</h2>
   <p>Eye Mode (अपने-आप नवीनीकृत होने वाली सदस्यता), क्रेडिट, कवच, डिज़ाइन और विज्ञापन-मुक्त विकल्प Google Play या App Store से बिकते हैं। हम भुगतान विवरण कभी नहीं देखते। हमारा सर्वर हर ख़रीद को स्टोर से जाँचकर ही जोड़ता है। सदस्यता स्टोर खाते से कभी भी रद्द की जा सकती है।</p>
@@ -784,7 +828,7 @@
 <!-- ============================== KURMANCÎ ============================== -->
 <section id="ku" lang="ku">
   <h1>Polîtîkaya Nihêniyê</h1>
-  <p class="meta">Nazarly · OneHelsing Studio · Nûkirina dawî: 11 Cotmeh 2026</p>
+  <p class="meta">Nazarly · OneHelsing Studio · Nûkirina dawî: 30 Cotmeh 2026</p>
   <p class="note">Ev werger ji bo hêsaniyê ye; heke cudahî hebe, guhertoya îngilîzî esas e.</p>
 
   <p>Nazarly lîstikeke civakî ya bi henek e ku ji folklora nezerê îlham digire û ji aliyê OneHelsing Studio ve hatiye çêkirin. Tu hevalan lê zêde dikî, bi yek destlêdanê “nezer” ji wan re dişînî, ew jî bi rîtuelekê kurt wê dişkînin. Ji bo ku heval bigihîjin hev, Nazarly karûbarekî serhêl bi kar tîne. Ev polîtîka rave dike ka em çi, çima û heta kengê diparêzin û tu dikarî çi bikî. Berpirsiyarê daneyan OneHelsing Studio ye: <a href="mailto:onehelsingstudio@gmail.com">onehelsingstudio@gmail.com</a>.</p>
@@ -816,10 +860,14 @@
   <p>Em daneyên te yên kesane nafiroşin.</p>
 
   <h2>Peydakerên karûbaran û cihê parastinê</h2>
-  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting; herêma europe-west1, Belçîka), <b>Google AdMob</b> (reklam), <b>Google Play</b> (dravdan, abonetî û Play Install Referrer ji bo koda vexwendinê). Ew li gorî mercên pêvajoya daneyan a Google, ku benda peymanê ya standard dihewîne, li ser navê me daneyan pêvajo dikin. Ji bo bikarhênerên li Tirkiyeyê, ev tê wateya veguhastina daneyan bo derveyî welat (YE); ev veguhastin di çarçoveya xala 9an a KVKKyê de tê kirin.</p>
+  <p><b>Google Firebase</b> (Authentication, Firestore, Cloud Functions, Cloud Messaging, Hosting, Analytics, Crashlytics; herêma europe-west1, Belçîka), <b>Google AdMob</b> (reklam), <b>Google Play</b> (dravdan, abonetî û Play Install Referrer ji bo koda vexwendinê). Ew li gorî mercên pêvajoya daneyan a Google, ku benda peymanê ya standard dihewîne, li ser navê me daneyan pêvajo dikin. Ji bo bikarhênerên li Tirkiyeyê, ev tê wateya veguhastina daneyan bo derveyî welat (YE); ev veguhastin di çarçoveya xala 9an a KVKKyê de tê kirin.</p>
 
   <h2>Reklam</h2>
-  <p>Nazarly bi reklamên Google AdMob tê fînansekirin. Google dikare nasnameya reklamê, agahiyên cîhazê, cihê nêzîkî ji IPyê û têkiliyên te bi reklaman re pêvajo bike: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>. Li Herêma Aborî ya Ewropayê, Keyaniya Yekbûyî û Swîsreyê berî reklamên kesane em razîbûna te dipirsin; tu dikarî di mîhengan de biguherînî. Li tora hevalan, di rîtuelan de, li ekrana nezerê, di tomarbûnê de û li firoşgehê reklam tune. Reklamên bi xelat her tim bijarte ne.</p>
+  <p>Nazarly bi reklamên Google AdMob tê fînansekirin. Google dikare nasnameya reklamê, agahiyên cîhazê, cihê nêzîkî ji IPyê û têkiliyên te bi reklaman re pêvajo bike: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>. Li Herêma Aborî ya Ewropayê, Keyaniya Yekbûyî û Swîsreyê berî reklamên kesane em razîbûna te dipirsin; tu dikarî di mîhengan de biguherînî. Li piraniya ekranan reklameke banner a piçûk xuya dibe, li tora hevalan jî (li jêr, bi valahiyekê) û di rîtuelan de (li jor), lê qet ne li binê cihê ku tu lê dixî an dikişînî. Reklamên tevahiya ekranê qet di nav rîtuelê an tomarbûnê de dernakevin; tenê carinan dema ku tu ji ekrana encamê vedigerî. Eye Mode û vebijarka bê reklam wan radikin. Reklamên bi xelat her tim bijarte ne.</p>
+
+  <h2>Statîstîk û raporên têkçûnê</h2>
+  <p>Ji bo ku em fêm bikin kîjan taybetmendî tên bikaranîn û têkçûnan sererast bikin, sepan <b>Google Firebase Analytics</b> û <b>Firebase Crashlytics</b> bi kar tîne. Bûyerên wekî “nezer hat şandin”, “nezer bi rîtuela X hat şikandin”, “şandyar hat eşkerekirin (bi reklam, kredî an Eye Mode)”, “vexwendin hat parvekirin”, “heval hat zêdekirin”, “kirîn temam bû (berhem)” û “banner bar bû” digihîjin Analytics, bi agahiyên cîhaz û sepanê, nasnameyeke rasthatî ya sazkirinê û li ser Android, heke destûr hebe, nasnameya reklamê re. Navê bikarhêner, navê xuyakirî, navên hevalan, nasnameya hesab, koda vexwendinê û pesn qet nayên şandin û statîstîk bi hesabê te ve nayên girêdan. Crashlytics raporên têkçûnê (şopa çewtiyê, modela cîhazê, guhertoya pergal û sepanê, nasnameyeke rasthatî) tenê ji guhertoya weşandî distîne.</p>
+  <p>Berhevkirin di destpêkê de girtî ye û tenê piştî ku bijartina te ya razîbûnê diyar bû vedibe; li Herêma Aborî ya Ewropayê, Keyaniya Yekbûyî û Swîsreyê li gorî wê bijartinê dixebite (bê razîbûn, dane bê nasname tên şandin). Bingeha qanûnî: berjewendiya me ya rewa ji bo xebitandin û baştirkirina sepanê (GDPR xala 6(1)(f), KVKK xala 5(2)(f)) û, li cihê pêwîst, razîbûna te. Statîstîk heta 14 mehan, raporên têkçûnê 90 rojan tên parastin. Li ser iPhone nasnameya reklamê nayê berhevkirin.</p>
 
   <h2>Kirîna di nav sepanê de</h2>
   <p>Eye Mode (abonetiya ku bi xwe nû dibe), kredî, mertal, sêwiran û vebijarka bê reklam bi rêya Google Play an App Store tên firotin. Em tu carî agahiyên dravdanê nabînin. Servera me her kirînê bi firoşgehê re piştrast dike û paşê lê zêde dike. Tu dikarî abonetiyê kengî bixwazî ji hesabê firoşgehê betal bikî.</p>
