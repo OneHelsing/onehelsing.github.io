@@ -45,7 +45,7 @@
     "slug": "spinsody",
     "accent": "#22B8CF",
     "languages": 18,
-    "appStore": null,
+    "appStore": "https://apps.apple.com/app/id6817875421",
     "googlePlay": "https://play.google.com/store/apps/details?id=com.onehelsing.spinsody",
     "en": {
       "name": "Spinsody",
@@ -66,7 +66,7 @@
     "slug": "blopsody",
     "accent": "#FF6B9A",
     "languages": 18,
-    "appStore": null,
+    "appStore": "https://apps.apple.com/app/id6817469542",
     "googlePlay": "https://play.google.com/store/apps/details?id=com.onehelsing.blopsody",
     "en": {
       "name": "Blopsody",
