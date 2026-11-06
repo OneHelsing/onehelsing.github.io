@@ -130,7 +130,7 @@
     "accent": "#D4A537",
     "languages": 1,
     "appStore": null,
-    "googlePlay": null,
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.onehelsing.gundas",
     "privacy": true,
     "en": {
       "name": "Gündaş",
