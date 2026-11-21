@@ -345,5 +345,47 @@
         "Kısa gerçek notlarıyla eser müzesi; hesap yok, sunucu yok"
       ]
     }
+  },
+  {
+    "slug": "kandila",
+    "accent": "#E8B04B",
+    "languages": 22,
+    "appStore": null,
+    "googlePlay": null,
+    "privacy": true,
+    "en": {
+      "name": "Kandila",
+      "tagline": "Light a candle, leave a prayer, remember someone you love.",
+      "category": "Lifestyle",
+      "languagesLabel": "20+ languages",
+      "description": [
+        "Light a candle at the Lourdes grotto, float a diya on the Ganges at Varanasi, walk around the Kaaba, tie an omikuji at Fushimi Inari or toss a coin into a wishing fountain. Every place is drawn by hand, day and night, with candles that really flicker and burn down over 24 hours.",
+        "Count prayers with a tasbih, japa mala, rosary or prayer wheel; start a 41 Yasin ring with friends; keep a remembrance page with the days that matter in each tradition; talk to a gentle AI listener in Confession Corner. Respectful, quietly playful, for every faith."
+      ],
+      "features": [
+        "30+ holy places and rituals from Islam, Christianity, Judaism, Hinduism, Sikhism, Buddhism, Shinto and Chinese tradition",
+        "Candles, diyas, notes and ema with your name that burn for 24 hours",
+        "Prayer counters with real beads: tasbih, japa mala, rosary, prayer wheel",
+        "Remembrance pages and reminders for holy days in every calendar",
+        "No account; most of the app stays on your phone"
+      ]
+    },
+    "tr": {
+      "name": "Kandila",
+      "tagline": "Mum yak, dua bırak, sevdiğini an.",
+      "category": "Yaşam tarzı",
+      "languagesLabel": "20+ dil",
+      "description": [
+        "Lourdes Mağarası'nda mum yak, Varanasi'de Ganj'a diya bırak, Kâbe'yi tavaf et, Fushimi Inari'de omikuji bağla ya da dilek çeşmesine para at. Her mekân gece ve gündüz elle çizildi; mumlar gerçekten titrer ve 24 saatte erir.",
+        "Tesbih, japa mala, tespih ya da dua çarkıyla say; arkadaşlarınla 41 Yasin halkası başlat; her geleneğin anma günleriyle bir anma sayfası tut; İtiraf Köşesi'nde seni yargılamayan bir yapay zekâya içini dök. Saygılı, biraz da muzip; her inanç için."
+      ],
+      "features": [
+        "İslam, Hristiyanlık, Yahudilik, Hinduizm, Sihizm, Budizm, Şinto ve Çin geleneğinden 30+ kutsal mekân ve ritüel",
+        "Adınla 24 saat yanan mum, diya, not ve ema",
+        "Gerçek boncuklu sayaçlar: tesbih, japa mala, tespih, dua çarkı",
+        "Anma sayfaları ve her takvimde kutsal gün hatırlatmaları",
+        "Hesap yok; uygulamanın çoğu telefonunda kalır"
+      ]
+    }
   }
 ]
