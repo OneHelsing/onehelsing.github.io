@@ -29,10 +29,7 @@ def both(en, tr, tag="span"):
     return f'<{tag} lang="en">{en}</{tag}><{tag} lang="tr">{tr}</{tag}>'
 
 
-LOGO = """<svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#7c5cff"/><stop offset="1" stop-color="#ff5c8a"/></linearGradient></defs>
-<rect width="64" height="64" rx="18" fill="url(#g)"/><circle cx="25" cy="32" r="11" fill="none" stroke="#fff" stroke-width="6"/>
-<path d="M42 19v26M42 32h9M51 19v26" stroke="#fff" stroke-width="6" stroke-linecap="round"/></svg>"""
+LOGO = '<img class="mark" src="/assets/brand/mark.png" alt="" width="34" height="34">'
 
 
 def head(title, desc, path, image=None):
@@ -50,7 +47,8 @@ def head(title, desc, path, image=None):
 <meta property="og:url" content="{SITE}{path}">
 <meta property="og:image" content="{image}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/brand/favicon-48.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
