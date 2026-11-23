@@ -120,8 +120,8 @@ CAPS = [
      "Not AI for its own sake: assistants, generated content, smart tutoring, vision and voice — wherever they make something possible that wasn't before.",
      "Moda diye değil: asistanlar, üretilen içerik, akıllı öğretim, görüntü ve ses; daha önce mümkün olmayanı mümkün kıldığı her yerde."),
     ("🌍", "Any language, any market", "Her dil, her pazar",
-     "Our apps already speak English, Turkish, German, Spanish, Portuguese, Russian and Kurmanji. We localise for any language — including the ones big companies skip.",
-     "Uygulamalarımız İngilizce, Türkçe, Almanca, İspanyolca, Portekizce, Rusça ve Kurmancî konuşuyor. Her dile uyarlıyoruz; büyük şirketlerin atladığı diller dahil."),
+     "Our apps already speak 30+ languages, from English, Japanese and Arabic to Kurmanji, Laz and Kabyle. We localise for any language — including the ones big companies skip.",
+     "Uygulamalarımız İngilizceden, Japoncadan ve Arapçadan Kurmancîye, Lazcaya ve Kabilceye 30+ dil konuşuyor. Her dile uyarlıyoruz; büyük şirketlerin atladığı diller dahil."),
     ("🧭", "From idea to the store", "Fikirden mağazaya",
      "Product design, development, testing, store listings, privacy, ads and in-app purchases, App Store and Google Play publishing — end to end.",
      "Ürün tasarımı, geliştirme, test, mağaza sayfaları, gizlilik, reklam ve uygulama içi satın alma, App Store ve Google Play yayını; uçtan uca."),
@@ -172,7 +172,7 @@ def index(apps):
   </div>
   <div class="stats">
     <div><b>{len(apps)}</b><span>{both("apps and games", "uygulama ve oyun")}</span></div>
-    <div><b>7</b><span>{both("languages and counting", "dil, artmaya devam")}</span></div>
+    <div><b>30+</b><span>{both("languages and counting", "dil, artmaya devam")}</span></div>
     <div><b>iOS · Android</b><span>{both("every release", "her sürümde")}</span></div>
     <div><b>∞</b><span>{both("ideas in the queue", "sırada bekleyen fikir")}</span></div>
   </div>

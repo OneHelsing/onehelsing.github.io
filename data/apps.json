@@ -3,22 +3,23 @@
     "slug": "wordsody",
     "accent": "#E4572E",
     "languages": 12,
-    "appStore": null,
+    "appStore": "https://apps.apple.com/app/id6819065303",
     "googlePlay": "https://play.google.com/store/apps/details?id=com.onehelsing.wordsody",
     "en": {
       "name": "Wordsody",
       "tagline": "A word puzzle journey in twelve languages.",
       "category": "Word game",
       "description": [
-        "Connect letters on a wheel, fill the crossword, and travel through endless hand-drawn worlds. Every level is generated on the device, so the journey never runs out.",
-        "Each word you find has its own meaning card with translations into six other languages, and goes into your personal notebook with a smart review. Learn-a-language mode turns the game into a gentle teacher."
+        "Swipe letters on the wheel, fill the crossword and travel through endless hand-drawn worlds: a new world every 20 levels, each with a postcard for your collection. Easy, Medium or Hard, free shuffles, and the Journey plays offline, even on a plane.",
+        "Three fresh challenges every morning, the same for everyone: Word of the Day, Daily Puzzle and Group It. Climb the leaderboards or send a friend a duel. Tap any word for its meaning and translations; My Notebook brings it back before you forget."
       ],
       "features": [
-        "Endless levels, 20-level worlds and postcards",
-        "Word of the Day and Daily Puzzle with streaks",
-        "Meaning cards and translations for 28,000+ words",
-        "Learn-a-language mode and spaced-repetition review",
-        "English, Turkish, German, Spanish, Portuguese, Russian, Kurmanji"
+        "Endless levels and a new world every 20 levels",
+        "Word of the Day, Daily Puzzle and Group It",
+        "Leaderboards and friend duels with rematch",
+        "Tap a word for its meaning; smart review in My Notebook",
+        "Learn-a-language mode: play in one language, read meanings in yours",
+        "English, Turkish, German, Spanish, Portuguese, Russian, French, Italian, Dutch, Polish, Indonesian, Kurmanji"
       ]
     },
     "tr": {
@@ -26,15 +27,16 @@
       "tagline": "On iki dilde kelime bulmaca yolculuğu.",
       "category": "Kelime oyunu",
       "description": [
-        "Çarktaki harfleri birleştir, bulmacayı doldur, kodla çizilmiş sonsuz dünyaları gez. Her seviye cihazda üretilir; yolculuk hiç bitmez.",
-        "Bulduğun her kelimenin anlam kartı ve altı dile çevirisi var; kelimeler akıllı tekrarla kişisel defterine girer. Dil öğren modu oyunu nazik bir öğretmene dönüştürür."
+        "Çarktaki harfleri birleştir, bulmacayı doldur, elle çizilmiş sonsuz dünyaları gez: her 20 seviyede yepyeni bir dünya ve koleksiyonuna bir kartpostal. Kolay, Orta ya da Zor; karıştırmak bedava, Yolculuk internetsiz de oynanır, uçakta bile.",
+        "Her sabah herkese aynı üç yeni meydan okuma: Günün Kelimesi, Günün Bulmacası ve Grupla. Sıralamada zirveye oyna ya da arkadaşına düello gönder. Bir kelimeye dokun, anlamını ve çevirilerini gör; Kelime Defterim unutmadan önce tekrar ettirir."
       ],
       "features": [
-        "Sonsuz seviye, 20 seviyelik dünyalar ve kartpostallar",
-        "Seriyle Günün Kelimesi ve Günün Bulmacası",
-        "28.000'den fazla kelime için anlam kartı ve çeviri",
-        "Dil öğren modu ve aralıklı tekrar",
-        "Türkçe, İngilizce, Almanca, İspanyolca, Portekizce, Rusça, Kurmancî"
+        "Sonsuz seviye, her 20 seviyede yeni bir dünya",
+        "Günün Kelimesi, Günün Bulmacası ve Grupla",
+        "Sıralama ve rövanşlı arkadaş düellosu",
+        "Kelimeye dokun, anlamını gör; Kelime Defterim'de akıllı tekrar",
+        "Dil öğren modu: öğrendiğin dilde oyna, anlamı kendi dilinde oku",
+        "Türkçe, İngilizce, Almanca, İspanyolca, Portekizce, Rusça, Fransızca, İtalyanca, Felemenkçe, Lehçe, Endonezce, Kurmancî"
       ]
     }
   },
@@ -90,10 +92,11 @@
         "Paint with centrifugal force, breathe with a calming wheel, or blow on the microphone and turn it into a pinwheel."
       ],
       "features": [
-        "Six bodies, eight materials, real physics",
-        "Five sound modes and matching vibration",
-        "Spin painting, breathing and sleep modes",
-        "Daily challenge and a two-player battle"
+        "Build your own spinner: shapes, metals, glass, wood, real physics",
+        "Five sound modes, from calm ASMR to a roaring turbine",
+        "Today's goals, a daily challenge and new parts to unlock",
+        "Spin race for two on one phone",
+        "Breathing wheel, lullaby spinner and Spin Art"
       ]
     },
     "tr": {
@@ -105,10 +108,11 @@
         "Merkezkaç kuvvetiyle resim yap, sakinleştiren çarkla nefes al ya da mikrofona üfleyip rüzgâr gülüne çevir."
       ],
       "features": [
-        "Altı gövde, sekiz malzeme, gerçek fizik",
-        "Beş ses modu ve uyumlu titreşim",
-        "Döndürerek boyama, nefes ve uyku modları",
-        "Günlük meydan okuma ve iki kişilik düello"
+        "Kendi çarkını yap: şekil, metal, cam, ahşap, gerçek fizik",
+        "Sakin ASMR'den gürleyen türbine beş ses",
+        "Bugünün hedefleri, günlük meydan okuma ve açılan yeni parçalar",
+        "Tek telefonda iki kişilik çark yarışı",
+        "Nefes çarkı, ninni çarkı ve Spin Art"
       ]
     }
   },
@@ -128,9 +132,10 @@
       ],
       "features": [
         "Every game turns into a unique song",
-        "A coach that shows the one move that mattered",
-        "Daily puzzle, album and home-screen widget",
-        "No ads while you play"
+        "Tour city after city across Türkiye and Europe",
+        "Duels, rematches and leaderboards for every mode",
+        "Chord, Shapes, Tune Up and Timed modes",
+        "Daily Song, album and video sharing; plays offline"
       ]
     },
     "tr": {
@@ -143,9 +148,10 @@
       ],
       "features": [
         "Her oyun eşsiz bir şarkıya dönüşür",
-        "En çok etkileyen tek hamleyi gösteren koç",
-        "Günlük bulmaca, albüm ve ana ekran widget'ı",
-        "Oynarken reklam yok"
+        "Türkiye ve Avrupa'da şehir şehir turne",
+        "Düello, rövanş ve her moda liderlik tablosu",
+        "Akor, Kalıp, Akort Ustası ve Süreli modlar",
+        "Günün Şarkısı, albüm ve video paylaşımı; internetsiz de oynanır"
       ]
     }
   },
@@ -270,40 +276,42 @@
   {
     "slug": "dengo",
     "accent": "#0F9D74",
-    "languages": 3,
-    "appStore": null,
+    "languages": 15,
+    "appStore": "https://apps.apple.com/app/id6837415165",
     "googlePlay": null,
     "en": {
       "name": "Dengo",
-      "tagline": "Learn Kurdish through real people’s voices.",
+      "tagline": "Roots and languages: hear real voices, learn by playing.",
       "category": "Language learning",
       "description": [
-        "Every sentence in Dengo was spoken by a real person. Listen, read along and learn Kurdish by ear, in short lessons with no pressure and no account.",
-        "Lessons work offline and your progress stays on your phone. Picture books, a dictionary and a “say it yourself” exercise help you hear, read and speak."
+        "One app for the languages of your roots: Kurdish in four dialects, Georgian, Laz, Armenian, Circassian, Uyghur, Tatar, Kabyle, Albanian, Greek, Bulgarian and more, with new languages on the way. Type a word, hear a real voice, learn by playing.",
+        "An offline dictionary that you can search in English, Turkish or the language itself, short lessons that feel like play, every script from Latin and Arabic to Georgian, Armenian and Cyrillic, plus Dengo Radio, stories and scenes. No account. The dictionary and A1 are free; Dengo Plus is optional."
       ],
       "features": [
-        "Real voices from open recordings",
-        "Short lessons, no account",
-        "Picture books and a dictionary",
-        "“Say it yourself” speaking practice",
-        "English, Turkish and Kurmanji"
-      ]
+        "15+ heritage languages and dialects in one app",
+        "Offline dictionary with 100,000+ words",
+        "Real voices: native speakers and talking characters",
+        "Short lessons, smart review and streaks",
+        "Dengo Radio, stories and scenes, even offline"
+      ],
+      "languagesLabel": "15+ languages"
     },
     "tr": {
       "name": "Dengo",
-      "tagline": "Kürtçeyi gerçek insanların sesinden öğren.",
+      "tagline": "Kökler ve diller: gerçek sesten dinle, oynayarak öğren.",
       "category": "Dil öğrenme",
       "description": [
-        "Dengo’daki her cümleyi gerçek bir insan seslendirdi. Dinle, okuyarak takip et ve Kürtçeyi kulaktan öğren: kısa dersler, baskı yok, hesap yok.",
-        "Dersler çevrimdışı çalışır, ilerlemen telefonunda kalır. Resimli kitaplar, sözlük ve “Sen söyle” alıştırması duymana, okumana ve konuşmana yardım eder."
+        "Köklerinin dilleri tek uygulamada: dört lehçesiyle Kürtçe, Gürcüce, Lazca, Ermenice, Çerkesçe, Uygurca, Tatarca, Kabilce, Arnavutça, Yunanca, Bulgarca ve fazlası; yenileri yolda. Bir kelime yaz, gerçek sesten dinle, oynayarak öğren.",
+        "Türkçe, İngilizce ya da kelimenin kendi diliyle aranan internetsiz sözlük, oyun gibi kısa dersler, Latin ve Arap'tan Gürcü, Ermeni ve Kiril'e her alfabe; Dengo Radyo, hikâyeler ve sahneler. Hesap yok. Sözlük ve A1 ücretsiz; Dengo Plus isteğe bağlı."
       ],
       "features": [
-        "Açık kayıtlardan gerçek sesler",
-        "Kısa dersler, hesap yok",
-        "Resimli kitaplar ve sözlük",
-        "“Sen söyle” konuşma alıştırması",
-        "Türkçe, İngilizce ve Kurmancî"
-      ]
+        "Tek uygulamada 15+ köken dili ve lehçe",
+        "100.000+ kelimelik internetsiz sözlük",
+        "Gerçek sesler: ana dili konuşanlar ve konuşan karakterler",
+        "Kısa dersler, akıllı tekrar ve seri",
+        "Dengo Radyo, hikâyeler ve sahneler, internetsiz de"
+      ],
+      "languagesLabel": "15+ dil"
     }
   },
   {
@@ -314,7 +322,7 @@
     "googlePlay": null,
     "privacy": true,
     "en": {
-      "name": "Dig & Run",
+      "name": "Treasure Master: Dig & Run",
       "tagline": "Grandpa's treasure notebook, a map and a shovel. Mind the sergeant.",
       "category": "Puzzle",
       "description": [
@@ -322,7 +330,7 @@
         "Night digs with a lantern and a patrol on its rounds, a hardware store and a barn, a crew that acts on its own, a one-eyed rival, map pieces that open the big mysteries, a daily treasure and race codes for friends. Six languages, free and offline."
       ],
       "features": [
-        "22 hand-drawn mysteries that grow from step counting to Morse and coordinates",
+        "30+ hand-drawn mysteries that grow from step counting to Morse and coordinates",
         "Night digs, patrol, hiding; caught by the sergeant? Run, call the mayor, pay for tea or surrender",
         "Tools, barn and a 4-slot bag; a crew that whistles, breaks rocks and carries the light",
         "Daily treasure for everyone and race codes to share with a friend",
@@ -330,7 +338,7 @@
       ]
     },
     "tr": {
-      "name": "Kaz ve Kaç",
+      "name": "Define Ustası: Kaz & Kaç",
       "tagline": "Dedemin define defteri, bir harita, bir kürek. Jandarmaya dikkat.",
       "category": "Bulmaca",
       "description": [
@@ -338,7 +346,7 @@
         "Fenerle gece kazısı ve rotasında dönen devriye, nalbur ve ahır, işini kendi yapan ekip, tek gözlü rakip, büyük gizemleri açan harita parçaları, günlük define ve arkadaşla yarış kodu. Altı dil, ücretsiz, internetsiz."
       ],
       "features": [
-        "Adım saymaktan Mors'a ve koordinata büyüyen 22 el çizimi gizem",
+        "Adım saymaktan Mors'a ve koordinata büyüyen 30+ el çizimi gizem",
         "Gece kazısı, devriye, saklanma; komutana yakalandın mı? Kaç, muhtarı ara, çay parası öde ya da teslim ol",
         "Aletler, ahır ve 4 yuvalı çanta; ıslık çalan, taş kıran, fener taşıyan ekip",
         "Herkese aynı günlük define ve arkadaşa gönderilen yarış kodu",
@@ -359,13 +367,14 @@
       "category": "Lifestyle",
       "languagesLabel": "20+ languages",
       "description": [
-        "Light a candle at the Lourdes grotto, float a diya on the Ganges at Varanasi, walk around the Kaaba, tie an omikuji at Fushimi Inari or toss a coin into a wishing fountain. Every place is drawn by hand, day and night, with candles that really flicker and burn down over 24 hours.",
-        "Count prayers with a tasbih, japa mala, rosary or prayer wheel; start a 41 Yasin ring with friends; keep a remembrance page with the days that matter in each tradition; talk to a gentle AI listener in Confession Corner. Respectful, quietly playful, for every faith."
+        "Light a candle at the Lourdes grotto, float a diya on the Ganges at Varanasi, raise your hands at Arafat, tie an omikuji at Fushimi Inari or toss a coin into a wishing fountain. Every place is drawn by hand, day and night, with candles that really flicker and burn down over 24 hours.",
+        "Count prayers with a tasbih, japa mala, rosary or prayer wheel; start a khatm or prayer ring with friends; keep a remembrance page with the days that matter in each tradition; in Confession Corner, talk or type to a gentle AI listener who can answer aloud. Respectful, quietly playful, for every faith."
       ],
       "features": [
-        "30+ holy places and rituals from Islam, Christianity, Judaism, Hinduism, Sikhism, Buddhism, Shinto and Chinese tradition",
+        "Holy places and rituals from Islam, Christianity, Judaism, Hinduism, Sikhism, Buddhism, Shinto and Chinese tradition",
         "Candles, diyas, notes and ema with your name that burn for 24 hours",
         "Prayer counters with real beads: tasbih, japa mala, rosary, prayer wheel",
+        "Khatm and prayer rings to share with friends",
         "Remembrance pages and reminders for holy days in every calendar",
         "No account; most of the app stays on your phone"
       ]
@@ -376,13 +385,14 @@
       "category": "Yaşam tarzı",
       "languagesLabel": "20+ dil",
       "description": [
-        "Lourdes Mağarası'nda mum yak, Varanasi'de Ganj'a diya bırak, Kâbe'yi tavaf et, Fushimi Inari'de omikuji bağla ya da dilek çeşmesine para at. Her mekân gece ve gündüz elle çizildi; mumlar gerçekten titrer ve 24 saatte erir.",
-        "Tesbih, japa mala, tespih ya da dua çarkıyla say; arkadaşlarınla 41 Yasin halkası başlat; her geleneğin anma günleriyle bir anma sayfası tut; İtiraf Köşesi'nde seni yargılamayan bir yapay zekâya içini dök. Saygılı, biraz da muzip; her inanç için."
+        "Lourdes Mağarası'nda mum yak, Varanasi'de Ganj'a diya bırak, Arafat'ta el aç, Fushimi Inari'de omikuji bağla ya da dilek çeşmesine para at. Her mekân gece ve gündüz elle çizildi; mumlar gerçekten titrer ve 24 saatte erir.",
+        "Tesbih, japa mala, tespih ya da dua çarkıyla say; arkadaşlarınla hatim ya da dua halkası başlat; her geleneğin anma günleriyle bir anma sayfası tut; İtiraf Köşesi'nde seni yargılamayan bir yapay zekâya yazarak ya da konuşarak içini dök, sesli cevap versin. Saygılı, biraz da muzip; her inanç için."
       ],
       "features": [
-        "İslam, Hristiyanlık, Yahudilik, Hinduizm, Sihizm, Budizm, Şinto ve Çin geleneğinden 30+ kutsal mekân ve ritüel",
+        "İslam, Hristiyanlık, Yahudilik, Hinduizm, Sihizm, Budizm, Şinto ve Çin geleneğinden kutsal mekân ve ritüeller",
         "Adınla 24 saat yanan mum, diya, not ve ema",
         "Gerçek boncuklu sayaçlar: tesbih, japa mala, tespih, dua çarkı",
+        "Arkadaşlarla paylaşılan hatim ve dua halkaları",
         "Anma sayfaları ve her takvimde kutsal gün hatırlatmaları",
         "Hesap yok; uygulamanın çoğu telefonunda kalır"
       ]
